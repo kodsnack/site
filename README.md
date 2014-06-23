@@ -14,12 +14,12 @@ För att testa:
 
 ## TODO
 
-* Snygga permalinkar till posts, gärna
+* DONE Snygga permalinkar till posts, gärna
   http://kodsnack.se/<avsnittsnummer>
 
   (se http://hugo.spf13.com/extras/permalinks)
 
-* Visa bara avsnittsinlägg på huvudsidan
+* DONE Visa bara avsnittsinlägg på huvudsidan
 
 * Paginera?
 
@@ -27,9 +27,11 @@ För att testa:
 
 * Importera alla gamla avsnitt, se till att gamla länkar funkar.
 
+  Tricket är aliases: http://hugo.spf13.com/extras/aliases
+
 * Twitter-integration i /om
 
-* länka /about till /om
+* DONE länka /about till /om
 
 * en bra 404-sida
 

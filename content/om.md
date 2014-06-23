@@ -2,7 +2,7 @@
 date = 2014-06-23T20:23:30Z
 draft = false
 title = "Om kodsnack"
-
+aliases = ["/about/"]
 +++
 
 Kodsnack är ett poddradioprogram som behandlar ämnen intressanta för
