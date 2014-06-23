@@ -57,7 +57,20 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: #777777;
-  background-color: #111;
+  background-color: #eee;
+}
+
+.sidebar-header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar-header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (min-width: 48rem) {
@@ -73,7 +86,7 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #222;
 }
 
 /* About section */
@@ -102,6 +115,11 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+.sidebar-copyright a {
+    font-size: small;
+    color: #777;
 }
 
 /* Sticky sidebar

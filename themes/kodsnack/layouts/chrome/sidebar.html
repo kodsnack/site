@@ -2,7 +2,9 @@
   <div class="container sidebar-sticky">
 
     <div class="sidebar-about">
-      <h1><a href="{{ .Site.BaseUrl }}">{{ .Site.Title }}</a></h1>
+      <div class="sidebar-header">
+        <a href="{{ .Site.BaseUrl }}"><img src="{{ .Site.BaseUrl }}/kodsnack-sidebar.jpg"></a>
+      </div>
       <p class="lead">
       {{ with .Site.Params.Description }} {{.}} {{ else }} Ett tema
       för <a href="http://kodsnack.se">kodsnack</a>
@@ -17,6 +19,14 @@
       {{end}}
     </ul>
 
-    <p>{{ with .Site.Params.Copyright }}{{.}}{{ else }}&copy; Inget är tillåtet. {{end}}</p>
+    <div class="sidebar-copyright">
+    {{ if .Site.Params.CopyrightHTML }}
+    {{.Site.Params.CopyrightHTML | safeHtml}}
+    {{ else if .Site.Params.Copyright }}
+    {{.Site.Params.Copyright}}
+    {{ else }}
+    &copy; Inget är tillåtet.
+    {{end}}
+    </div>
   </div>
 </div>

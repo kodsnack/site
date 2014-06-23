@@ -4,6 +4,7 @@ title = "kodsnack"
 
 [params]
 Description = "En svensk podcast om att koda koden."
+CopyrightHTML = "<a href=\"https://github.com/kodsnack\">github.com/kodsnack</a>"
 
 [permalinks]
 avsnitt = "/:slug/"
@@ -40,5 +41,6 @@ avsnitt = "/:slug/"
 
 [[menu.main]]
         name = "IRC: #kodsnack på freenode"
+        url = "http://freenode.net"
         weight = -194
 
