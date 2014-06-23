@@ -1,3 +1,44 @@
-baseurl = "http://yourSiteHere"
-languageCode = "en-us"
-title = "my new hugo site"
+baseurl = "http://kodsnack.github.io"
+languageCode = "sv"
+title = "kodsnack"
+
+[params]
+Description = "En svensk podcast om att koda koden."
+
+[permalinks]
+avsnitt = "/:slug/"
+
+[[menu.main]]
+        name = "Om"
+        url = "/om/"
+        weight = -200
+
+[[menu.main]]
+        name = "Avsnitt"
+        url = "/avsnitt/"
+        weight = -199
+
+[[menu.main]]
+        name = "Prenumerera (RSS)"
+        url = "http://feedpress.me/kodsnack"
+        weight = -198
+
+[[menu.main]]
+        name = "Prenumerera (iTunes)"
+        url = "http://itunes.apple.com/se/podcast/kodsnack/id561631498?l=en"
+        weight = -197
+
+[[menu.main]]
+        name = "@kodsnack"
+        url = "https://twitter.com/KodSnack"
+        weight = -196
+
+[[menu.main]]
+        name = "Google+"
+        url = "https://plus.google.com/+KodsnackSePodcast"
+        weight = -195
+
+[[menu.main]]
+        name = "IRC: #kodsnack på freenode"
+        weight = -194
+

@@ -1,0 +1,22 @@
+name = "Kodsnack"
+license = "MIT"
+source_repo = ""
+description = "Tema för podcasten kodsnack, baserad på temat Hyde."
+tags = ["kodsnack", "podcast"]
+features = ["podcast", ]
+
+[author]
+    name = "krig"
+    email = "krig@koru.se"
+    url = "http://kri.gs"
+
+# If Porting existing theme
+[original]
+    name = "spf13"
+    email = "hugo@spf13.com"
+    url = "http://spf13.com"
+
+[original-original]
+    author =  "mdo"
+    url = "http://andhyde.com"
+    repo = "http://www.github.com/mdo/hyde"

@@ -1,0 +1,22 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+
+    <div class="sidebar-about">
+      <h1><a href="{{ .Site.BaseUrl }}">{{ .Site.Title }}</a></h1>
+      <p class="lead">
+      {{ with .Site.Params.Description }} {{.}} {{ else }} Ett tema
+      för <a href="http://kodsnack.se">kodsnack</a>
+      av <a href="http://kri.gs">krig</a>. Skamlös kopia av Hyde från
+      Jekyll.{{end}}
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      {{ range .Site.Menus.main }}
+        <li><a href="{{.Url}}"> {{ .Name }} </a></li>
+      {{end}}
+    </ul>
+
+    <p>{{ with .Site.Params.Copyright }}{{.}}{{ else }}&copy; Inget är tillåtet. {{end}}</p>
+  </div>
+</div>
