@@ -1,4 +1,10 @@
-.PHONY: all
+.PHONY: serve deploy all
 
-all:
+all: deploy
+
+serve:
 	@hugo server --theme=kodsnack --buildDrafts --watch
+
+deploy:
+	@hugo --theme=kodsnack
+
