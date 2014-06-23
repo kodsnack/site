@@ -1,6 +1,6 @@
 +++
 date = 2014-06-23T20:23:30Z
-draft = true
+draft = false
 title = "Om kodsnack"
 
 +++
