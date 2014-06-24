@@ -23,16 +23,18 @@ För att testa:
 
 * Paginera?
 
-* Bild i sidebaren. Jävla CSS-mök.
+* DONE Bild i sidebaren. Jävla CSS-mök.
 
-* Importera alla gamla avsnitt, se till att gamla länkar funkar.
+* DONE :D Importera alla gamla avsnitt, se till att gamla länkar funkar.
 
   Tricket är aliases: http://hugo.spf13.com/extras/aliases
+
+* Ljudspelare, hur svårt är det att räkna ut rätt URL till libsyns html5-spelare?
 
 * Twitter-integration i /om
 
 * DONE länka /about till /om
 
-* en bra 404-sida
+* DONE? en bra 404-sida
 
 * IRC-länken i sidebaren buggar. Det är bajs.
