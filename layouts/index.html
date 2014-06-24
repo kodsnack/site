@@ -7,7 +7,7 @@
 
 <div class="posts">
 
-  {{ range .Site.Sections.avsnitt }}
+  {{ range first 1 .Site.Sections.avsnitt }}
 
   <div class="post">
     <h1 class="post-title">
@@ -22,6 +22,9 @@
 
   </div>
   {{ end }}
+
+  <a href="{{ .Site.BaseUrl }}/avsnitt/">Tidigare avsnitt</a>
+
 </div>
 
 
