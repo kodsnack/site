@@ -3,7 +3,7 @@ languageCode = "sv"
 title = "kodsnack"
 
 [params]
-Description = "En svensk podcast om att koda koden."
+Description = "Podcast om kod, för kodare. På svenska."
 CopyrightHTML = "<a href=\"https://github.com/kodsnack\">github.com/kodsnack</a>"
 
 [permalinks]
