@@ -1,32 +1,21 @@
 {{ template "theme/chrome/head.html" . }}
 <body>
+  {{ template "theme/chrome/sidebar.html" . }}
+  <div class="content container">
+    <div class="posts">
+      {{ range first 1 .Site.Sections.avsnitt }}
+      <div class="post">
+        <h1 class="post-title"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h1>
+        <span class="post-date">{{ .Page.Date.Format "2006-01-02 15:04" }}</span>
+      {{ if .Page.Params.audiofile }}
+        <span class="post-download"><a href="{{ .Page.Params.audiofile }}">Ladda ner (mp3)</a></span>
+        {{ end }}
 
-{{ template "theme/chrome/sidebar.html" . }}
+        {{ .Page.Content }}
 
-    <div class="content container">
-
-<div class="posts">
-
-  {{ range first 1 .Site.Sections.avsnitt }}
-
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ .Page.Permalink }}">
-        {{ .Page.Title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ .Page.Date.Format "2006-01-02 15:04" }}</span>
-
-    {{ .Page.Content }}
-
-  </div>
-  {{ end }}
-
-  <a href="{{ .Site.BaseUrl }}/avsnitt/">Tidigare avsnitt</a>
-
-</div>
-
-
+      </div>
+      {{ end }}
+      <a href="{{ .Site.BaseUrl }}/avsnitt/">Tidigare avsnitt</a>
+    </div>
   </body>
 </html>

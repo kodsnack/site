@@ -321,6 +321,14 @@ tbody tr:nth-child(odd) th {
 .post-date {
   display: block;
   margin-top: -.5rem;
+  margin-bottom: .5rem;
+  color: #9a9a9a;
+}
+
+/* Download link below post title */
+.post-download {
+  display: block;
+  margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
 }

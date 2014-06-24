@@ -1,0 +1,16 @@
+{{ template "theme/chrome/head.html" . }}
+<body>
+  {{ template "theme/chrome/sidebar.html" . }}
+  <div class="content container">
+    <div class="post">
+      <h1 class="post-title">{{ .Title }}</h1>
+      <span class="post-date">{{ .Date.Format "2006-01-02 15:04" }}</span>
+      {{ if .Params.audiofilo }}
+      <span class="post-download"><a href="{{ .Params.audiofile }}">Ladda ner (mp3)</a></span>
+      {{ end }}
+      {{ .Content }}
+
+    </div>
+  </div>
+  </body>
+</html>
