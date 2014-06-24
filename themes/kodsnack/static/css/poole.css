@@ -328,9 +328,23 @@ tbody tr:nth-child(odd) th {
 /* Download link below post title */
 .post-download {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  text-align: center;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+}
+
+/* HTML5 episode player */
+.post-player {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  width: 450px;
+  margin-bottom: -.5rem;
 }
 
 /* Related posts */
