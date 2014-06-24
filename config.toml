@@ -1,6 +1,7 @@
 baseurl = "http://kodsnack.se"
 languageCode = "sv"
 title = "kodsnack"
+pluralizeListTitles = false
 
 [params]
 Description = "Podcast om kod, för kodare. På svenska."
