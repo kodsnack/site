@@ -372,6 +372,15 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+.posts {
+    font-size: 90%;
+    white-space:nowrap;
+}
+
+.posts time {
+    color: #9a9a9a;
+}
+
 
 /*
  * Pagination
