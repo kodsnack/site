@@ -432,3 +432,12 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+figure {
+    float: right;
+}
+
+figcaption h4 {
+    font-weight: normal;
+    font-size: 14px;
+}
