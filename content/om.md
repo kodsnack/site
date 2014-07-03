@@ -24,7 +24,7 @@ naturligtvis att man IRC-ar från en skalserver som kör
 
 ### Fredrik
 
-<img src="/img/fredrik.png" style="float:left;" />
+<img src="/img/fredrik.png" style="float:left;margin-right:1rem;" />
 
 Fredrik är utvecklare på [TimeEdit][f1] och
 bygger allt från iOS-appar till servrar och webapplikationer.
@@ -44,7 +44,7 @@ dyker det upp några rader när andan faller på.
 
 ### Tobias
 
-<img src="/img/tru1003.jpg" style="float:right;" />
+<img src="/img/tru1003.jpg" style="float:right;margin-left:1rem;" />
 
 Tobias jobbar på [Plex][t1] som mjukvaruutvecklare. Innan det har han varit
 projektledare på [Purple Scout][t2] och tekniskt säljstöd på Procera
@@ -66,7 +66,7 @@ iPhone, iPad.
 
 ### Kristoffer
 
-<img src="/img/kristoffer.jpg" style="float:left;" />
+<img src="/img/kristoffer.jpg" style="float:left;margin-right:1rem;" />
 
 Kristoffer lärde sig programmera på en Commodore 64 med drömmar om att
 en dag bli spelutvecklare. Efter att ha levt drömmen på Massive i
