@@ -42,6 +42,5 @@ avsnitt = "/:slug/"
 
 [[menu.main]]
         name = "IRC: #kodsnack på freenode"
-        url = "http://freenode.net"
         weight = -194
 
