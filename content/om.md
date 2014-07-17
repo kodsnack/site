@@ -19,7 +19,7 @@ Vi finns även på IRC på irc.freenode.net. Kanalen heter
 [#kodsnack](irc://irc.freenode.net/kodsnack). Vi rekommenderar
 naturligtvis att man IRC-ar från en skalserver som kör
 [tmux](http://tmux.sourceforge.net/) och
-[irssi](http://www.irssi.org/)!
+[weechat](http://weechat.org/)!
 
 
 ### Fredrik
