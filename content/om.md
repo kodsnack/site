@@ -16,7 +16,7 @@ För frågor om annonsering och innehåll använd e-postadressen:
 [info@kodsnack.se](info@kodsnack.se)
 
 Vi finns även på IRC på irc.freenode.net. Kanalen heter
-[#kodsnack](irc://irc.freenode.net/kodsnack). Vi rekommenderar
+[#kodsnack](irc://irc.freenode.net:+7000/kodsnack). Vi rekommenderar
 naturligtvis att man IRC-ar från en skalserver som kör
 [tmux](http://tmux.sourceforge.net/) och
 [irssi](http://www.irssi.org/)!
