@@ -6,11 +6,11 @@ För att bygga deploy-bart, checka ut
 
 bredvid site-mappen och kör
 
-        make deploy
+    make deploy
 
 För att testa:
 
-        make serve
+    make serve
 
 ## TODO
 
