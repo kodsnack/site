@@ -13,7 +13,7 @@ pratar om sånt vi är intresserade av för tillfället, och ibland har vi
 gäster som pratar med oss.
 
 För frågor om annonsering och innehåll använd e-postadressen:
-[info@kodsnack.se](info@kodsnack.se)
+[info@kodsnack.se](mailto:info@kodsnack.se)
 
 Vi finns även på IRC på irc.freenode.net. Kanalen heter
 [#kodsnack](irc://irc.freenode.net:+7000/kodsnack). Vi rekommenderar
