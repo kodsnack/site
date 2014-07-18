@@ -70,7 +70,7 @@ iPhone, iPad.
 
 Kristoffer lärde sig programmera på en Commodore 64 med drömmar om att
 en dag bli spelutvecklare. Efter att ha levt drömmen på Massive i
-Malmö i ett antal år växte intressed för fri mjukvara, och numera
+Malmö i ett antal år växte intresset för fri mjukvara, och numera
 jobbar han på [SUSE][k1] där han hackar på diverse projekt relaterade till
 High Availability.
 
