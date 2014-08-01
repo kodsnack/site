@@ -12,16 +12,16 @@
           <source src="{{ .Params.audiofile }}" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
-        </div>
-        {{ end }}
-
-        {{ if .Params.audiofile }}
-        <span class="post-download"><a href="{{ .Params.audiofile }}">Ladda ner (mp3)</a></span>
-        {{ end }}
-
-        {{ .Content }}
-
       </div>
+      {{ end }}
+
+      {{ if .Params.audiofile }}
+      <span class="post-download"><a href="{{ .Params.audiofile }}">Ladda ner (mp3)</a></span>
+      {{ end }}
+
+      {{ .Content }}
+
     </div>
+  </div>
   </body>
-  </html>
+</html>
