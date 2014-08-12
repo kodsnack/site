@@ -18,8 +18,8 @@ För frågor om annonsering och innehåll använd e-postadressen:
 Vi finns även på IRC på irc.freenode.net. Kanalen heter
 [#kodsnack](irc://irc.freenode.net/kodsnack). Vi rekommenderar
 naturligtvis att man IRC-ar från en skalserver som kör
-[tmux](http://tmux.sourceforge.net/) och
-[weechat](http://weechat.org/)!
+[tmux](http://tmux.sourceforge.net/) och [weechat](http://weechat.org/) eller
+[irssi](http://www.irssi.org/)!
 
 
 ### Fredrik
