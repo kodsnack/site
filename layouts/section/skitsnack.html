@@ -1,0 +1,23 @@
+{{ template "theme/chrome/head.html" . }}
+<body>
+
+{{ template "theme/chrome/sidebar.html" . }}
+
+  <div class="content container">
+    <div class="post">
+      <h1 class="post-title">Skitsnack (bonus material)</h1>
+      Skitsnack är det som händer för eller efter vi spelar in kodsnack. Materialet här kan vara allt från teknik, politik, feminism, religion, hörlurar och spel.
+    
+      <ul class="posts">
+        {{ range .Data.Pages }}
+          <li>
+            <span class="post-list">
+              <time>{{ .Date.Format "2006-01-02" }}</time> <a href="{{ .Permalink }}">Skitsnack: {{ .Title }}</a>
+            </span>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

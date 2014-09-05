@@ -1,0 +1,26 @@
+{{ template "theme/chrome/head.html" . }}
+<body>
+  {{ template "theme/chrome/sidebar.html" . }}
+  <div class="content container">
+    <div class="posts">
+      {{ range first 1 .Site.Sections.skitsnack }}
+      <div class="post">
+        <h1 class="post-title">Skitsnack: <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h1>
+        <span class="post-date">{{ .Page.Date.Format "2006-01-02 15:04" }}</span>
+
+        {{ if .Page.Params.audiofile }}
+          <div class="post-player">
+            <audio controls class="post-player">
+              <source src="http://feeds.kodsnack.se/skitsnack/{{ .Page.Params.audiofile }}" />
+            </audio>
+          </div>
+          <span class="post-download"><a href="http://feeds.kodsnack.se/skitsnack/{{ .Page.Params.audiofile }}">Ladda ner (mp3)</a></span>
+        {{ end }}
+
+        {{ .Page.Content }}
+
+      </div>
+      {{ end }}
+    </div>
+  </body>
+</html>
