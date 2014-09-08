@@ -7,12 +7,12 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
     <channel>
-        <atom:link href="http://kodsnack.se/skitsnack/index.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="http://kodsnack.se/sumpsnack/index.xml" rel="self" type="application/rss+xml"/>
         <title>Skitsnack / Kodsnack</title>
         <pubDate>{{ .Date.Format "Mon, 01 Sep 2014 17:40:33 +0000" }}</pubDate>
         <lastBuildDate>{{ .Date.Format "Mon, 01 Sep 2014 17:40:33 +0000" }}</lastBuildDate>
         <generator>hugo</generator>
-        <link>http://kodsnack.se/skitsnack</link>
+        <link>http://kodsnack.se/sumpsnack</link>
         <language>en</language>
         <copyright>
             <![CDATA[Kristoffer, Fredrik och Tobias (kodsnack.se)]]>

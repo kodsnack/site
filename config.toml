@@ -21,8 +21,8 @@ avsnitt = "/:slug/"
         weight = -199
 
 [[menu.main]]
-        name = "Skitsnack (bonusmaterial)"
-        url = "/skitsnack/"
+        name = "Sumpsnack (bonusmaterial)"
+        url = "/sumpsnack/"
         weight = -198
 
 [[menu.main]]
