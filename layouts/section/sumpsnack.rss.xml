@@ -23,7 +23,7 @@
             <![CDATA[Skitsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack.]]>
         </description>
         <image>
-            <url>http://static.libsyn.com/p/assets/5/d/1/2/5d123ecd7823855e/Kodsnack-Album-Art-2.png</url>
+            <url>http://kodsnack.se/img/sumpsnack.png</url>
             <title>Kodsnack</title>
             <link>
                 <![CDATA[http://kodsnack.se]]>
@@ -32,7 +32,7 @@
         <itunes:author>Kristoffer, Fredrik, Tobias</itunes:author>
         <itunes:keywords>politik,femenism,spel,film,bocker,nerd,programmerare,svenska,swedish,utveckling</itunes:keywords>
         <itunes:category text="Technology"/>
-        <itunes:image href="http://static.libsyn.com/p/assets/5/d/1/2/5d123ecd7823855e/Kodsnack-Album-Art-2.png"/>
+        <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
         <itunes:explicit>yes</itunes:explicit>
         <itunes:owner>
             <itunes:name>
@@ -52,9 +52,11 @@
                 <pubDate>{{ .Date.Format "Mon, 01 Sep 2014 17:40:33 +0000" }}</pubDate>
                 <guid>{{ .Permalink }}</guid>
                 <link>{{ .Permalink }}</link>
-                <itunes:image href="http://static.libsyn.com/p/assets/5/d/1/2/5d123ecd7823855e/Kodsnack-Album-Art-2.png"/>
-                <description><![CDATA[{{ .Content | html }}]]></description>
-                <enclosure length="{{ .Params.audiosize }}" type="audio/mpeg" url="{{ .Params.audiofile }}"/>
+                <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
+                <description>
+                    <![CDATA[{{ .Content | html }}]]>
+                </description>
+                <enclosure length="{{ .Params.audiosize }}" type="audio/mpeg" url="http://feeds.kodsnack.se/sumpsnack/{{ .Params.audiofile }}"/>
                 <itunes:duration>{{ .Params.audiolength }}</itunes:duration>
                 <itunes:explicit>yes</itunes:explicit>
                 <itunes:keywords/>
