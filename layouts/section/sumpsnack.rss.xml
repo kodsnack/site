@@ -13,20 +13,14 @@
         <generator>hugo</generator>
         <link>http://kodsnack.se/sumpsnack</link>
         <language>en</language>
-        <copyright>
-            <![CDATA[Kristoffer, Fredrik och Tobias (kodsnack.se)]]>
-        </copyright>
+        <copyright>Kristoffer, Fredrik och Tobias (kodsnack.se)</copyright>
         <docs>http://kodsnack.se</docs>
         <managingEditor>info@kodsnack.se (info@kodsnack.se)</managingEditor>
-        <description>
-            <![CDATA[Skitsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack.]]>
-        </description>
+        <description>Skitsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack</description>
         <image>
             <url>http://kodsnack.se/img/sumpsnack.png</url>
             <title>Kodsnack</title>
-            <link>
-                <![CDATA[http://kodsnack.se]]>
-            </link>
+            <link>http://kodsnack.se</link>
         </image>
         <itunes:author>Kristoffer, Fredrik, Tobias</itunes:author>
         <itunes:keywords>politik,femenism,spel,film,bocker,nerd,programmerare,svenska,swedish,utveckling</itunes:keywords>
@@ -34,17 +28,11 @@
         <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
         <itunes:explicit>yes</itunes:explicit>
         <itunes:owner>
-            <itunes:name>
-                <![CDATA[Kristoffer, Fredrik, Tobias]]>
-            </itunes:name>
+            <itunes:name>Kristoffer, Fredrik, Tobias</itunes:name>
             <itunes:email>info@kodsnack.se</itunes:email>
         </itunes:owner>
-        <itunes:summary>
-            <![CDATA[Skitsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack.]]>
-        </itunes:summary>
-        <itunes:subtitle>
-            <![CDATA[Ett poddradioprogram på svenska av utvecklare, för ingen, om allting.]]>
-        </itunes:subtitle>
+        <itunes:summary>Skitsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack.</itunes:summary>
+        <itunes:subtitle>Ett poddradioprogram på svenska av utvecklare, för ingen, om allting.</itunes:subtitle>
         {{ range .Data.Pages }}
             <item>
                 <title>{{ .Title }} on {{ .Site.Title }} </title>
@@ -53,7 +41,7 @@
                 <link>{{ .Permalink }}</link>
                 <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
                 <description>
-                    <![CDATA[{{ .Content | html }}]]>
+                    {{ .Content | html }}
                 </description>
                 <enclosure length="{{ .Params.audiosize }}" type="audio/mpeg" url="http://feeds.kodsnack.se/sumpsnack/{{ .Params.audiofile }}"/>
                 <itunes:duration>{{ .Params.audiolength }}</itunes:duration>
