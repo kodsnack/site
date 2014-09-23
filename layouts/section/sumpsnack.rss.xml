@@ -7,20 +7,20 @@
 
     <channel>
         <atom:link href="http://kodsnack.se/sumpsnack/index.xml" rel="self" type="application/rss+xml"/>
-        <title>Skitsnack / Kodsnack</title>
-        <pubDate>{{ .Date.Format "Mon, 01 Sep 2014 17:40:33 +0000" }}</pubDate>
-        <lastBuildDate>{{ .Date.Format "Mon, 01 Sep 2014 17:40:33 +0000" }}</lastBuildDate>
+        <title>Sumpsnack / Kodsnack</title>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+        <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
         <generator>hugo</generator>
         <link>http://kodsnack.se/sumpsnack</link>
         <language>en</language>
         <copyright>Kristoffer, Fredrik och Tobias (kodsnack.se)</copyright>
         <docs>http://kodsnack.se</docs>
         <managingEditor>info@kodsnack.se (info@kodsnack.se)</managingEditor>
-        <description>Skitsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack</description>
+        <description>Sumpsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack</description>
         <image>
             <url>http://kodsnack.se/img/sumpsnack.png</url>
-            <title>Kodsnack</title>
-            <link>http://kodsnack.se</link>
+            <title>Sumpsnack</title>
+            <link>http://kodsnack.se/sumpsnack</link>
         </image>
         <itunes:author>Kristoffer, Fredrik, Tobias</itunes:author>
         <itunes:keywords>politik,femenism,spel,film,bocker,nerd,programmerare,svenska,swedish,utveckling</itunes:keywords>
@@ -31,12 +31,12 @@
             <itunes:name>Kristoffer, Fredrik, Tobias</itunes:name>
             <itunes:email>info@kodsnack.se</itunes:email>
         </itunes:owner>
-        <itunes:summary>Skitsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack.</itunes:summary>
+        <itunes:summary>Sumpsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack.</itunes:summary>
         <itunes:subtitle>Ett poddradioprogram på svenska av utvecklare, för ingen, om allting.</itunes:subtitle>
         {{ range .Data.Pages }}
             <item>
                 <title>{{ .Title }} on {{ .Site.Title }} </title>
-                <pubDate>{{ .Date.Format "Mon, 01 Sep 2014 17:40:33 +0000" }}</pubDate>
+                <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
                 <guid>{{ .Permalink }}</guid>
                 <link>{{ .Permalink }}</link>
                 <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
