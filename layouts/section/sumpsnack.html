@@ -5,17 +5,19 @@
 
   <div class="content container">
     <div class="post">
-      <h1 class="post-title">Skitsnack (bonusmaterial)</h1>
+      <h1 class="post-title">Sumpsnack (bonusmaterial)</h1>
 
       <p>
-        Skitsnack är det som händer för eller efter vi spelar in kodsnack. Materialet här kan vara allt från teknik, politik, feminism, religion, hörlurar och spel.
+        Sumpsnack är det som händer för eller efter vi spelar in kodsnack. Materialet här kan vara allt från teknik, politik, feminism, religion, hörlurar och spel.
+
+        Du kan också prenumerera via <a href="http://kodsnack.se/sumpsnack/index.xml">RSS</a>.
       </p>
     
       <ul class="posts">
         {{ range .Data.Pages }}
           <li>
             <span class="post-list">
-              <time>{{ .Date.Format "2006-01-02" }}</time> <a href="{{ .Permalink }}">Skitsnack: {{ .Title }}</a>
+              <time>{{ .Date.Format "2006-01-02" }}</time> <a href="{{ .Permalink }}">Sumpsnack: {{ .Title }}</a>
             </span>
           </li>
         {{ end }}
