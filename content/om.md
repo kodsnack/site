@@ -52,7 +52,7 @@ Network.
 
 Tobias har alltid jobbat med mjukvara på sin fritid och har bland
 annat skrivit stora delar av [XMMS2][t3]. All hans open source mjukvara
-finns på Gituhb][t5]
+finns på [Github][t5]
 
 Du kan även hitta Tobias på [AppSnack][t4], en svensk podcast om Apple,
 iPhone, iPad.
