@@ -2,6 +2,31 @@
 <body>
   {{ template "theme/chrome/sidebar.html" . }}
   <div class="content container">
+
+    <div class="notice">
+      <h2>Kodsnack på Øredev</h2>
+
+      <div class="notice-body">
+        <p>Den här veckan är Kodsnack på Øredev i Malmö, där vi intervjuar diverse talare på scen. Kom gärna och säg hej om ni är där, det finns fortfarande ett par t-shirts kvar. :)</p>
+
+        <iframe width="560" height="315" src="//www.youtube.com/embed/9NELjCaWtXA" frameborder="0" allowfullscreen></iframe>
+
+        <h3>Schema, torsdag</h3>
+
+        <ul>
+          <li>14.00 - 15.00 - Stefan Karpinski</li>
+          <li>16.00 - 17.00 - Rob Ashton</li>
+          <li>17.40 - 18.40 - Jen Myers</li>
+        </ul>
+
+        <h3>Schema, fredag</h3>
+
+        <ul>
+          <li>16.30 - 18.00 - Chris Noessel</li>
+        </ul>
+      </div>
+    </div>
+    
     <div class="posts">
       {{ range first 1 .Site.Sections.avsnitt }}
       <div class="post">

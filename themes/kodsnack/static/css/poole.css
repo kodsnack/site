@@ -441,3 +441,14 @@ figcaption h4 {
     font-weight: normal;
     font-size: 14px;
 }
+
+.notice {
+  margin-bottom: 4em;
+}
+
+.notice h2 {
+  color: #303030;
+}
+
+.notice-body {
+}
