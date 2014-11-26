@@ -2,28 +2,7 @@
 <body>
   {{ template "theme/chrome/sidebar.html" . }}
   <div class="content container">
-
-    <div class="notice">
-      <h2>Kodsnack på Øredev</h2>
-
-      <div class="notice-body">
-        <p>Veckan är över! Tack till alla lyssnare vi träffat under veckan, vi ser fram emot att träffa er igen!</p>
-
-        <p>Här är video-versioner av de intervjuer vi spelade in under konferensen.
-          Tyvärr lyckades vi inte spela in alla intervjuer vi gjorde, men det här är de flesta.
-          Stort tack till <a href="http://steveonjava.com/">Stephen Chin</a> och <a href="http://nighthacking.com/">nighthacking.com</a>
-          som var den som fixade allt rörande video åt oss!</p>
-
-        <ul>
-          <li><a href="http://nighthacking.com/kodsnack-interviewing-fred-george/">Fred George</a></li>
-          <li><a href="http://nighthacking.com/kodsnack-interviewing-james-mickens/">James Mickens</a></li>
-          <li><a href="http://nighthacking.com/kodsnack-interviewing-stefan-karpinski/">Stefan Karpinski</a></li>
-          <li><a href="http://nighthacking.com/kodsnack-interviewing-rob-ashton/">Rob Ashton</a></li>
-        </ul>
-
-      </div>
-    </div>
-    
+   
     <div class="posts">
       {{ range first 1 .Site.Sections.avsnitt }}
       <div class="post">

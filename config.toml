@@ -21,24 +21,29 @@ avsnitt = "/:slug/"
         weight = -199
 
 [[menu.main]]
+        name = "Video"
+        url = "/video/"
+        weight = -198
+
+[[menu.main]]
         name = "Sumpsnack (bonusmaterial)"
         url = "/sumpsnack/"
-        weight = -198
+        weight = -197
 
 [[menu.main]]
         name = "Prenumerera (RSS)"
         url = "http://feedpress.me/kodsnack"
-        weight = -197
+        weight = -196
 
 [[menu.main]]
         name = "Prenumerera (iTunes)"
         url = "http://itunes.apple.com/se/podcast/kodsnack/id561631498?l=en"
-        weight = -196
+        weight = -195
 
 [[menu.main]]
         name = "@kodsnack"
         url = "https://twitter.com/KodSnack"
-        weight = -195
+        weight = -194
 
 [[menu.main]]
         name = "IRC: #kodsnack på freenode"
