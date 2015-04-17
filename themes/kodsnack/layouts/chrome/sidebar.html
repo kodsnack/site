@@ -15,7 +15,7 @@
 
     <ul class="sidebar-nav">
       {{ range .Site.Menus.main }}
-        <li><a href="{{if .Url}}{{.Url}}{{else}}irc://irc.freenode.net:+7000/kodsnack{{end}}"> {{ .Name }} </a></li>
+        <li><a href="{{.Url}}"> {{ .Name }} </a></li>
       {{end}}
     </ul>
 
