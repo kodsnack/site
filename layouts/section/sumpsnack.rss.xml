@@ -8,15 +8,15 @@
     <channel>
         <atom:link href="http://kodsnack.se/sumpsnack/index.xml" rel="self" type="application/rss+xml"/>
         <title>Sumpsnack</title>
-        <pubDate>{{ .Date.Format "Wed, 02 Jan 2006 15:04 -0700" | safeHtml }}</pubDate>
-        <lastBuildDate>{{ .Date.Format "Wed, 02 Jan 2006 15:04 -0700" | safeHtml }}</lastBuildDate>
+        <pubDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHtml }}</pubDate>
+        <lastBuildDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHtml }}</lastBuildDate>
         <generator>hugo</generator>
         <link>http://kodsnack.se/sumpsnack</link>
         <language>en</language>
         <copyright>Kristoffer, Fredrik och Tobias (kodsnack.se)</copyright>
         <docs>http://kodsnack.se</docs>
         <managingEditor>info@kodsnack.se (info@kodsnack.se)</managingEditor>
-        <description>Sumpsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack</description>
+        <description>Sumpsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in Kodsnack.</description>
         <image>
             <url>http://kodsnack.se/img/sumpsnack.png</url>
             <title>Sumpsnack</title>
@@ -31,12 +31,12 @@
             <itunes:name>Kristoffer, Fredrik, Tobias</itunes:name>
             <itunes:email>info@kodsnack.se</itunes:email>
         </itunes:owner>
-        <itunes:summary>Sumpsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in kodsnack.</itunes:summary>
+        <itunes:summary>Sumpsnack är vad Fredrik, Kristoffer och Tobias gör innan eller efter vi spelar in Kodsnack.</itunes:summary>
         <itunes:subtitle>Ett poddradioprogram på svenska av utvecklare, för ingen, om allting.</itunes:subtitle>
         {{ range .Data.Pages }}
             <item>
                 <title>{{ .Title }} on {{ .Site.Title }} </title>
-                <pubDate>{{ .Date.Format "Wed, 02 Jan 2006 15:04 -0700" | safeHtml }}</pubDate>
+                <pubDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHtml }}</pubDate>
                 <guid>{{ .Permalink }}</guid>
                 <link>{{ .Permalink }}</link>
                 <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
