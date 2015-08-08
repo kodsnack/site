@@ -12,7 +12,7 @@
         <lastBuildDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHtml }}</lastBuildDate>
         <generator>hugo</generator>
         <link>http://kodsnack.se/sumpsnack</link>
-        <language>en</language>
+        <language>sv</language>
         <copyright>Kristoffer, Fredrik och Tobias (kodsnack.se)</copyright>
         <docs>http://kodsnack.se</docs>
         <managingEditor>info@kodsnack.se (info@kodsnack.se)</managingEditor>
