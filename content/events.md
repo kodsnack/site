@@ -8,6 +8,10 @@ aliases = ["/events/"]
 I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakta oss på [info@kodsnack.se](mailto:info@kodsnack.se) för mer information.
 
 ## Planerade framträdanden 2015
+### [Next generation threats][ngt2015]
+22 september, Stockholm - koden "kodsnack" ger 400 kr rabatt vid anmälan
+23 september, Göteborg - koden "kodsnack" ger 400 kr rabatt vid anmälan
+
 ### [Code night 3: Framtidens arkitekturer][codenight3]
 15 oktober, Stockholm
 
@@ -28,6 +32,7 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 ### [Øredev][oredev14]
 4-7 november, Malmö
 
+[ngt2015]: http://techworld.event.idg.se/event/ngt15/ "Next generation threats"
 [codenight3]:  http://event.computersweden.se/codenight3 "Code night 3"
 [oredev15]:  http://oredev.org "Øredev 2015"
 [gbgstartuphack]: http://www.gbgstartuphack.com "Gothenburg startup hack"
