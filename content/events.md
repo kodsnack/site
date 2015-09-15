@@ -18,6 +18,9 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 ### [Øredev][oredev15]
 3-6 november, Malmö
 
+### [Internetdagarna 2015][internetdagarna15]
+23-24 november, Stockholm
+
 ## Tidigare framträdanden 2015
 ### [Code night 2: Lärdomar från spelbranschen][codenight2] 
 17 juni, Stockholm
@@ -39,3 +42,4 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 [codenight1]: http://event.computersweden.se/codenight// "Code night 1"
 [codenight2]: http://event.computersweden.se/codenight2/ "Code night 2"
 [oredev14]: http://oredev.org/2014 "Øredev 2014"
+[internetdagarna15]: https://internetdagarna.se "Internetdagarna 2015"
