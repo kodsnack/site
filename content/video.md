@@ -5,6 +5,19 @@ title = "Video med Kodsnack"
 aliases = ["/video/"]
 +++
 
+## Øredev 2015
+Här är de intervjuer vi spelade in med video på scen under
+[&Oslash;redev][oredev] 2015. Stort tack till
+[Stephen Chin][stephen] och [nighthacking.com][night] som var den som
+fixade allt rörande video åt oss!
+
+<ul>
+<li><a href="http://nighthacking.com/kodsnack-discussion-with-tim-urban-and-torill-kornfeldt/">Tim Urban och Torill Kornfeldt</a></li>
+<li><a href="http://nighthacking.com/kodsnack-interviewing-aaron-gustafson/">Aaron Gustafson</a></li>
+<li><a href="http://nighthacking.com/kodsnack-interviewing-james-turnbull/">James Turnbull</a></li>
+<li><a href="http://nighthacking.com/kodsnack-interviewing-pete-hunt/">Pete Hunt</a></li>
+</ul>
+
 ## Code night 16 april 2015
 Under IDGs första [kodkväll][codenight] livesände vi från scen tillsammans med öppningstalaren [Petra F Sundström][petra] från Husqvarna.
 <ul>
