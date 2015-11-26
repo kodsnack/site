@@ -12,10 +12,10 @@ Här är de intervjuer vi spelade in med video på scen under
 fixade allt rörande video åt oss!
 
 <ul>
-<li><a href="http://nighthacking.com/kodsnack-discussion-with-tim-urban-and-torill-kornfeldt/">Tim Urban och Torill Kornfeldt</a></li>
-<li><a href="http://nighthacking.com/kodsnack-interviewing-aaron-gustafson/">Aaron Gustafson</a></li>
-<li><a href="http://nighthacking.com/kodsnack-interviewing-james-turnbull/">James Turnbull</a></li>
-<li><a href="http://nighthacking.com/kodsnack-interviewing-pete-hunt/">Pete Hunt</a></li>
+<li><a href="https://www.youtube.com/watch?v=xDu4-o4uFRQ">Tim Urban och Torill Kornfeldt</a></li>
+<li><a href="https://www.youtube.com/watch?v=XCq0wzwQF-A">Aaron Gustafson</a></li>
+<li><a href="https://www.youtube.com/watch?v=5qjPTg8wDw8">James Turnbull</a></li>
+<li><a href="https://www.youtube.com/watch?v=ea-q_GvGCpk">Pete Hunt</a></li>
 </ul>
 
 ## Code night 16 april 2015
