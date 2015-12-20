@@ -51,7 +51,7 @@ projektledare på [Purple Scout][t2] och tekniskt säljstöd på Procera
 Network.
 
 Tobias har alltid jobbat med mjukvara på sin fritid och har bland
-annat skrivit stora delar av [XMMS2][t3]. All hans open source mjukvara
+annat skrivit stora delar av [XMMS2][t3]. All hans open source-mjukvara
 finns på [Github][t5]
 
 Du kan även hitta Tobias på [AppSnack][t4], en svensk podcast om Apple,
