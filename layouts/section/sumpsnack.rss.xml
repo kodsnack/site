@@ -35,8 +35,8 @@
         <itunes:subtitle>Ett poddradioprogram på svenska av utvecklare, för ingen, om allting.</itunes:subtitle>
         {{ range .Data.Pages }}
             <item>
-                <title>{{ .Title }} on {{ .Site.Title }} </title>
                 <pubDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHtml }}</pubDate>
+                <title>{{ .Title }} </title>
                 <guid>{{ .Permalink }}</guid>
                 <link>{{ .Permalink }}</link>
                 <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
