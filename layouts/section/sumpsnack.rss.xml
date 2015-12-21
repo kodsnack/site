@@ -43,7 +43,7 @@
                 <description>
                     {{ .Content | html }}
                 </description>
-                <enclosure length="{{ .Params.audiosize }}" type="audio/mpeg" url="http://www.bjoreman.com/files/sumpsnack/{{ .Params.audiofile }}"/>
+                <enclosure length="{{ .Params.audiosize }}" type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/www.bjoreman.com/files/sumpsnack/{{ .Params.audiofile }}"/>
                 <itunes:duration>{{ .Params.audiolength }}</itunes:duration>
                 <itunes:explicit>yes</itunes:explicit>
                 <itunes:keywords/>
