@@ -60,12 +60,17 @@ html {
     margin-right: auto;
     width: 100%;
     text-align: center;
-}
-
-.sidebar-header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-image: url('http://kodsnack.se/kodsnack-sidebar.jpg');
+    background-size: 224px 224px;
+    width: 224px;
+    height: 224px;
+}
+
+.sump-sidebar .sidebar-header {
+  background-image: url('http://kodsnack.se/sumpsnack.png');
 }
 
 @media (min-width: 48rem) {
