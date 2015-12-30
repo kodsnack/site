@@ -2,9 +2,8 @@
   <div class="container sidebar-sticky">
 
     <div class="sidebar-about">
-      <div class="sidebar-header">
-        <a href="{{ .Site.BaseUrl }}"><img src="{{ .Site.BaseUrl }}/kodsnack-sidebar.jpg"></a>
-      </div>
+      <a href="{{ .Site.BaseURL }}"><div class="sidebar-header">
+      </div></a>
       <p class="lead">
       {{ with .Site.Params.Description }} {{.}} {{ else }} Ett tema
       för <a href="http://kodsnack.se">kodsnack</a>
