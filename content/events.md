@@ -7,7 +7,7 @@ aliases = ["/events/"]
 
 I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakta oss på [info@kodsnack.se](mailto:info@kodsnack.se) för mer information.
 
-## Planerade framträdanden 2015
+## Tidigare framträdanden 2015
 
 ### [Code night 3: Framtidens arkitekturer][codenight3]
 15 oktober, Stockholm
@@ -18,7 +18,6 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 ### [Internetdagarna 2015][internetdagarna15]
 23-24 november, Stockholm - koden "IND2015" ger 20% rabatt vid anmälan
 
-## Tidigare framträdanden 2015
 ### [Next generation threats][ngt2015]
 22 september, Stockholm - koden "kodsnack" ger 400 kr rabatt vid anmälan
 23 september, Göteborg - koden "kodsnack" ger 400 kr rabatt vid anmälan
