@@ -14,13 +14,13 @@
 
     <ul class="sidebar-nav">
       {{ range .Site.Menus.main }}
-        <li><a href="{{.Url}}"> {{ .Name }} </a></li>
+        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
       {{end}}
     </ul>
 
     <div class="sidebar-copyright">
     {{ if .Site.Params.CopyrightHTML }}
-    {{.Site.Params.CopyrightHTML | safeHtml}}
+    {{.Site.Params.CopyrightHTML | safeHTML}}
     {{ else if .Site.Params.Copyright }}
     {{.Site.Params.Copyright}}
     {{ else }}

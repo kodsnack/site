@@ -8,8 +8,8 @@
     <channel>
         <atom:link href="http://kodsnack.se/sumpsnack/index.xml" rel="self" type="application/rss+xml"/>
         <title>Sumpsnack</title>
-        <pubDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHtml }}</pubDate>
-        <lastBuildDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHtml }}</lastBuildDate>
+        <pubDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHTML }}</pubDate>
+        <lastBuildDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHTML }}</lastBuildDate>
         <generator>hugo</generator>
         <link>http://kodsnack.se/sumpsnack</link>
         <language>sv</language>
@@ -35,8 +35,8 @@
         <itunes:subtitle>Ett poddradioprogram på svenska av utvecklare, för ingen, om allting.</itunes:subtitle>
         {{ range .Data.Pages }}
             <item>
-                <pubDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHtml }}</pubDate>
                 <title>{{ .Title }} </title>
+                <pubDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHTML }}</pubDate>
                 <guid>{{ .Permalink }}</guid>
                 <link>{{ .Permalink }}</link>
                 <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
