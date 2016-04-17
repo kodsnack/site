@@ -7,6 +7,14 @@ aliases = ["/events/"]
 
 I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakta oss på [info@kodsnack.se](mailto:info@kodsnack.se) för mer information.
 
+## Framträdanden 2016
+
+### [Gothenburg startup hack/Startup arena][startuparena]
+14 maj, Göteborg
+
+### [Devops summit 2016][devops2016]
+15 juni, Stockholm - koden "kodsnack" ger 500 kr rabatt vid anmälan
+
 ## Tidigare framträdanden 2015
 
 ### [Code night 3: Framtidens arkitekturer][codenight3]
@@ -35,6 +43,8 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 ### [Øredev][oredev14]
 4-7 november, Malmö
 
+[startuparena]: http://www.gbgtechweek.com/#startuparena
+[devops2016]: http://techworld.event.idg.se/event/devops-summit-2016/ "Devops summit 2016"
 [ngt2015]: http://techworld.event.idg.se/event/ngt15/ "Next generation threats"
 [codenight3]:  http://event.computersweden.se/codenight3 "Code night 3"
 [oredev15]:  http://oredev.org "Øredev 2015"
