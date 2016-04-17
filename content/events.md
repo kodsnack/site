@@ -17,11 +17,11 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ## Tidigare framträdanden 2015
 
-### [Øredev][oredev15]
-3-6 november, Malmö
-
 ### [Internetdagarna 2015][internetdagarna15]
 23-24 november, Stockholm - koden "IND2015" ger 20% rabatt vid anmälan
+
+### [Øredev][oredev15]
+3-6 november, Malmö
 
 ### [Code night 3: Framtidens arkitekturer][codenight3]
 15 oktober, Stockholm
