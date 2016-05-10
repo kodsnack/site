@@ -1,7 +1,7 @@
 +++
 date = 2014-06-23T20:23:30Z
 draft = false
-title = "Om kodsnack"
+title = "Om Kodsnack"
 aliases = ["/about/"]
 +++
 
