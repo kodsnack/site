@@ -337,6 +337,18 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
+/* Checkbox to open all links in tabs */
+.open-in-tabs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+}
+
 /* HTML5 episode player */
 .post-player {
   display: block;

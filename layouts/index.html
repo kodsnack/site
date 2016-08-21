@@ -16,6 +16,21 @@
 
       {{ if .Page.Params.audiofile }}
         <span class="post-download"><a href="{{ .Page.Params.audiofile }}">Ladda ner (mp3)</a></span>
+        <script>
+          var linksInNewTab = false;
+          var toggleLinkTarget = function () {
+            linksInNewTab = !linksInNewTab;
+            var links = document.getElementsByTagName('a');
+            var numLinks = links.length;
+            for (var i = 0; i < numLinks; i++) {
+              links.item(i).target = linksInNewTab ? '_blank' : '';
+            }
+          }
+          document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById('linkToggler').addEventListener('click', toggleLinkTarget);
+          });
+        </script>
+        <span class="open-in-tabs"><label><input type="checkbox" id="linkToggler">Öppna länkar i nya flikar</input></label></span>
         {{ end }}
 
         {{ .Page.Content }}
