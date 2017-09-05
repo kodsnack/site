@@ -7,7 +7,14 @@ aliases = ["/events/"]
 
 I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakta oss på [info@kodsnack.se](mailto:info@kodsnack.se) för mer information.
 
-## Framträdanden 2016
+## 2017
+### After work och livepodd med Suse
+3 oktober, Hobo, Brunkebergstorg 4, Stockholm - anmälan med namn och företag till [livepodd@gmail.com][livepodd]
+
+### [Øredev][oredev17]
+8-10 november, Malmö
+
+## Tidigare framträdanden 2016
 
 ### [Gothenburg startup hack/Startup arena][startuparena]
 14 maj, Göteborg
@@ -51,9 +58,11 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 [devops2016]: http://techworld.event.idg.se/event/devops-summit-2016/ "Devops summit 2016"
 [ngt2015]: http://techworld.event.idg.se/event/ngt15/ "Next generation threats"
 [codenight3]:  http://event.computersweden.se/codenight3 "Code night 3"
-[oredev15]:  http://oredev.org "Øredev 2015"
+[oredev15]:  http://oredev.org/2015 "Øredev 2015"
 [gbgstartuphack]: http://www.gbgstartuphack.com "Gothenburg startup hack"
 [codenight1]: http://event.computersweden.se/codenight// "Code night 1"
 [codenight2]: http://event.computersweden.se/codenight2/ "Code night 2"
 [oredev14]: http://oredev.org/2014 "Øredev 2014"
 [internetdagarna15]: https://internetdagarna.se "Internetdagarna 2015"
+[livepodd]: mailto:livepodd@gmail.com "livepodd@gmail.com"
+[oredev17]:  http://oredev.org "Øredev 2017"
