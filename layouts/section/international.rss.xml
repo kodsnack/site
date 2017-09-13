@@ -31,8 +31,7 @@
         </itunes:owner>
         <itunes:summary></itunes:summary>
         <itunes:subtitle>A podcast by developers, about anything interesting to developers</itunes:subtitle>
-        {{ range .Site.Sections.avsnitt }}
-            {{ if .Page.Params.english}}
+        {{ range .Site.Sections.avsnitt }}{{ if .Page.Params.english}}
             <item>
                 <title>{{ .Page.Title }} </title>
                 <pubDate>{{ .Page.Date.Format "02 Jan 2006 15:04 -0700" | safeHTML }}</pubDate>
@@ -49,7 +48,6 @@
                 <itunes:subtitle>
                 </itunes:subtitle>
             </item>
-            {{ end }}
-        {{ end }}
+        {{ end }}{{ end }}
     </channel>
 </rss>
