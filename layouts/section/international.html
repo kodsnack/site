@@ -1,0 +1,28 @@
+{{ template "theme/chrome/head.html" . }}
+<body>
+<div class="sump-sidebar">
+  {{ template "theme/chrome/sidebar.html" . }}
+</div>
+  <div class="content container">
+    <div class="post">
+      <h1 class="post-title">Kodsnack in English</h1>
+
+      <p>
+        All our episodes in English, ready for consumption or <a href="index.xml">subscription via RSS</a>.
+      </p>
+    
+      <ul class="posts">
+        {{ range .Site.Sections.avsnitt }}
+            {{ if .Page.Params.english }}
+            <li>
+              <span class="post-list">
+                <time>{{ .Page.Date.Format "2006-01-02" }}</time> <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+              </span>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

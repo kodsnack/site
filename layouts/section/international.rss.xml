@@ -1,0 +1,57 @@
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:cc="http://web.resource.org/cc/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <channel>
+        <atom:link href="http://kodsnack.se/international/index.xml" rel="self" type="application/rss+xml"/>
+        <title>Kodsnack in English</title>
+        <generator>hugo</generator>
+        <link>http://kodsnack.se/</link>
+        <language>en</language>
+        <copyright>Kristoffer, Fredrik and Tobias (kodsnack.se)</copyright>
+        <docs>http://kodsnack.se</docs>
+        <managingEditor>info@kodsnack.se (info@kodsnack.se)</managingEditor>
+        <description></description>
+        <image>
+            <url>http://kodsnack.se/img/sumpsnack.png</url>
+            <title>Kodsnack</title>
+            <link>http://kodsnack.se/</link>
+        </image>
+        <itunes:author>Kristoffer, Fredrik, Tobias</itunes:author>
+        <itunes:keywords>technology,development,coding,software development, hacking</itunes:keywords>
+        <itunes:category text="Technology"/>
+        <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:owner>
+            <itunes:name>Kristoffer, Fredrik, Tobias</itunes:name>
+            <itunes:email>info@kodsnack.se</itunes:email>
+        </itunes:owner>
+        <itunes:summary></itunes:summary>
+        <itunes:subtitle>A podcast by developers, about anything interesting to developers</itunes:subtitle>
+        {{ range .Site.Sections.avsnitt }}
+            {{ if eq .Page.Params.english true }}
+              {{ if eq .Page.Params.draft false }}
+                    <item>
+                        <title>{{ .Page.Title }} </title>
+                        <pubDate>{{ .Page.Date.Format "02 Jan 2006 15:04 -0700" | safeHTML }}</pubDate>
+                        <guid>{{ .Page.Permalink }}</guid>
+                        <link>{{ .Page.Permalink }}</link>
+                        <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
+                        <description>
+                            {{ .Page.Content | html }}
+                        </description>
+                        <enclosure length="{{ .Page.Params.audiosize }}" type="audio/mpeg" url="{{ .Page.Params.audiofile }}"/>
+                        <itunes:duration>{{ .Page.Params.audiolength }}</itunes:duration>
+                        <itunes:explicit>yes</itunes:explicit>
+                        <itunes:keywords/>
+                        <itunes:subtitle>
+                        </itunes:subtitle>
+                    </item>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </channel>
+</rss>
