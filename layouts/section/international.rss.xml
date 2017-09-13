@@ -14,7 +14,7 @@
         <copyright>Kristoffer, Fredrik and Tobias (kodsnack.se)</copyright>
         <docs>http://kodsnack.se</docs>
         <managingEditor>info@kodsnack.se (info@kodsnack.se)</managingEditor>
-        <description></description>
+        <description>All the English episodes of Kodsnack - a podcast by developers, about anything interesting to developers</description>
         <image>
             <url>http://kodsnack.se/img/sumpsnack.png</url>
             <title>Kodsnack in English</title>
@@ -29,7 +29,7 @@
             <itunes:name>Kristoffer, Fredrik, Tobias</itunes:name>
             <itunes:email>info@kodsnack.se</itunes:email>
         </itunes:owner>
-        <itunes:summary></itunes:summary>
+        <itunes:summary>All the English episodes of Kodsnack - a podcast by developers, about anything interesting to developers</itunes:summary>
         <itunes:subtitle>A podcast by developers, about anything interesting to developers</itunes:subtitle>
         {{ range .Site.Sections.avsnitt }}{{ if .Page.Params.english}}
             <item>
