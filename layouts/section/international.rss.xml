@@ -32,25 +32,23 @@
         <itunes:summary></itunes:summary>
         <itunes:subtitle>A podcast by developers, about anything interesting to developers</itunes:subtitle>
         {{ range .Site.Sections.avsnitt }}
-            {{ if eq .Page.Params.english true }}
-              {{ if eq .Page.Params.draft false }}
-                    <item>
-                        <title>{{ .Page.Title }} </title>
-                        <pubDate>{{ .Page.Date.Format "02 Jan 2006 15:04 -0700" | safeHTML }}</pubDate>
-                        <guid>{{ .Page.Permalink }}</guid>
-                        <link>{{ .Page.Permalink }}</link>
-                        <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
-                        <description>
-                            {{ .Page.Content | html }}
-                        </description>
-                        <enclosure length="{{ .Page.Params.audiosize }}" type="audio/mpeg" url="{{ .Page.Params.audiofile }}"/>
-                        <itunes:duration>{{ .Page.Params.audiolength }}</itunes:duration>
-                        <itunes:explicit>yes</itunes:explicit>
-                        <itunes:keywords/>
-                        <itunes:subtitle>
-                        </itunes:subtitle>
-                    </item>
-                {{ end }}
+            {{ if .Page.Params.english}}
+            <item>
+                <title>{{ .Page.Title }} </title>
+                <pubDate>{{ .Page.Date.Format "02 Jan 2006 15:04 -0700" | safeHTML }}</pubDate>
+                <guid>{{ .Page.Permalink }}</guid>
+                <link>{{ .Page.Permalink }}</link>
+                <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
+                <description>
+                    {{ .Page.Content | html }}
+                </description>
+                <enclosure length="{{ .Page.Params.audiosize }}" type="audio/mpeg" url="{{ .Page.Params.audiofile }}"/>
+                <itunes:duration>{{ .Page.Params.audiolength }}</itunes:duration>
+                <itunes:explicit>yes</itunes:explicit>
+                <itunes:keywords/>
+                <itunes:subtitle>
+                </itunes:subtitle>
+            </item>
             {{ end }}
         {{ end }}
     </channel>
