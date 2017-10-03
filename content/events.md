@@ -9,7 +9,7 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ## 2017
 ### After work och livepodd med Suse
-3 oktober, Hobo, Brunkebergstorg 4, Stockholm - anmälan med namn och företag till [livepodd@gmail.com][livepodd]
+3 oktober 17:00, Hobo, Brunkebergstorg 4, Stockholm - anmälan med namn och eventuellt företag till [livepodd@gmail.com][livepodd]
 
 ### [Øredev][oredev17]
 8-10 november, Malmö
