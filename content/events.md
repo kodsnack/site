@@ -8,11 +8,13 @@ aliases = ["/events/"]
 I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakta oss på [info@kodsnack.se](mailto:info@kodsnack.se) för mer information.
 
 ## 2017
-### After work och livepodd med Suse
-3 oktober 17:00, Hobo, Brunkebergstorg 4, Stockholm - anmälan med namn och eventuellt företag till [livepodd@gmail.com][livepodd]
 
 ### [Øredev][oredev17]
 8-10 november, Malmö
+
+## Tidigare framträdanden 2017
+### After work och livepodd med Suse
+3 oktober 17:00, Hobo, Brunkebergstorg 4, Stockholm - anmälan med namn och eventuellt företag till [livepodd@gmail.com][livepodd]
 
 ## Tidigare framträdanden 2016
 
