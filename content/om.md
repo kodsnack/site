@@ -7,10 +7,10 @@ aliases = ["/about/"]
 
 Kodsnack är ett poddradioprogram som behandlar ämnen intressanta för
 folk som tycker om att syssla med programmering och
-mjukvaruutveckling. Vi som gör programmet är tre kodare som jobbar som
-programmerare på heltid, med varierande bakgrund och erfarenhet. Vi
-pratar om sånt vi är intresserade av för tillfället, och ibland har vi
-gäster som pratar med oss.
+mjukvaruutveckling. Vi som gör programmet är ett gäng kodare som
+jobbar som programmerare på heltid, med varierande bakgrund och
+erfarenhet. Vi pratar om sånt vi är intresserade av för tillfället,
+och ibland har vi gäster som pratar med oss.
 
 För frågor om annonsering och innehåll använd e-postadressen:
 [info@kodsnack.se](mailto:info@kodsnack.se)
