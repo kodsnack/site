@@ -61,7 +61,17 @@ avsnitt = "/:slug/"
         weight = -191
 
 [[menu.main]]
+        name = "Prenumerera (Overcast)"
+        url = "https://overcast.fm/itunes561631498/kodsnack"
+        weight = -190
+
+[[menu.main]]
+        name = "Prenumerera (Pocket casts)"
+        url = "http://pca.st/h7lO"
+        weight = -189
+
+[[menu.main]]
         name = "@kodsnack"
         url = "https://twitter.com/KodSnack"
-        weight = -190
+        weight = -188
 
