@@ -1,6 +1,6 @@
 BaseURL = "http://kodsnack.se"
 languageCode = "sv"
-title = "Kodsnack"
+title = "Kodsnack - nu ännu snackigare"
 pluralizeListTitles = false
 
 [params]
