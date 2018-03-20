@@ -24,3 +24,4 @@ För att testa:
 - [X] länka /about till /om
 - [X] en bra 404-sida
 - [ ] IRC-länken i sidebaren buggar. Det är bajs.
+
