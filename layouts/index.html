@@ -2,20 +2,20 @@
 <body>
   {{ template "theme/chrome/sidebar.html" . }}
   <div class="content container">
-   
+
     <div class="posts">
-      {{ range first 1 .Site.Sections.avsnitt }}
+      {{ range first 1 (where .Site.Pages "Section" "avsnitt") }}
       <div class="post">
-        <h1 class="post-title"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h1>
-        <span class="post-date">{{ .Page.Date.Format "2006-01-02 15:04" }}</span>
-      {{ if .Page.Params.libsynid }}
+        <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+        <span class="post-date">{{ .Date.Format "2006-01-02 15:04" }}</span>
+      {{ if .Params.libsynid }}
       <div class="post-player">
-<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/{{ .Page.Params.libsynid }}/height/45/width/300/theme/standard-mini/direction/no/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/" height="45" width="300" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/{{ .Params.libsynid }}/height/45/width/300/theme/standard-mini/direction/no/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/" height="45" width="300" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
       </div>
       {{ end }}
 
-      {{ if .Page.Params.audiofile }}
-        <span class="post-download"><a href="{{ .Page.Params.audiofile }}">Ladda ner (mp3)</a></span>
+      {{ if .Params.audiofile }}
+        <span class="post-download"><a href="{{ .Params.audiofile }}">Ladda ner (mp3)</a></span>
         <script>
           var linksInNewTab = false;
           var toggleLinkTarget = function () {
@@ -33,7 +33,7 @@
         <span class="open-in-tabs"><label><input type="checkbox" id="linkToggler">Öppna länkar i nya flikar</input></label></span>
         {{ end }}
 
-        {{ .Page.Content }}
+        {{ .Content }}
 
       </div>
       {{ end }}

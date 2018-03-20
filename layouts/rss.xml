@@ -6,14 +6,14 @@
     <author>Kodsnack</author>
     <rights>Copyright (c) 2014, Kodsnack; all rights reserved.</rights>
     <updated>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</updated>
-    {{ range first 15 .Site.Sections.avsnitt }}
+    {{ range where .Site.Pages "Section" "avsnitt" }}
     <item>
-      <title>{{ .Page.Title }}</title>
-      <link>{{ .Page.Permalink }}</link>
-      <pubDate>{{ .Page.Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
       <author>Kodsnack</author>
-      <guid>{{ .Page.Permalink }}</guid>
-      <description>{{ .Page.Content | html }}</description>
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Content | html }}</description>
     </item>
     {{ end }}
   </channel>
