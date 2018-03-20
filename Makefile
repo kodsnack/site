@@ -6,5 +6,5 @@ serve:
 	@hugo server --theme=kodsnack --buildDrafts --watch
 
 deploy:
-	@hugo --theme=kodsnack -d "../kodsnack.github.io"
+	@hugo --theme=kodsnack -d ${DEST}
 
