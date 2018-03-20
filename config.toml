@@ -67,11 +67,10 @@ avsnitt = "/:slug/"
 
 [[menu.main]]
         name = "Prenumerera (Pocket casts)"
-        url = "https://pca.st/h7lO"
+        url = "http://pca.st/h7lO"
         weight = -189
 
 [[menu.main]]
         name = "@kodsnack"
         url = "https://twitter.com/KodSnack"
         weight = -188
-
