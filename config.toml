@@ -1,4 +1,4 @@
-BaseURL = "http://kodsnack.se"
+BaseURL = "https://kodsnack.se"
 languageCode = "sv"
 title = "Kodsnack - podd av kodare, för kodare, på svenska"
 pluralizeListTitles = false
