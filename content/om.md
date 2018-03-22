@@ -74,12 +74,10 @@ Malmö i ett antal år växte intresset för fri mjukvara, och numera
 jobbar han på [SUSE][k1] där han hackar på diverse projekt relaterade till
 High Availability.
 
-Han bloggar ibland på [koru.se][k2] och har en hemsida han sällan uppdaterar
-på [kri.gs][k3].
+Han bloggar inte på [koru.se][k2].
 
   [k1]: http://suse.com/
   [k2]: http://koru.se/
-  [k3]: http://kri.gs/
 
 <br clear="all">
 
