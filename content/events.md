@@ -9,7 +9,7 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ## 2018
 
-### [Suse expert day][https://kodsnack.se/suse]
+### [Suse expert day][suseevent]
 10 april, Stockholm
 
 ### [Javaforum][javaforum18]
@@ -79,3 +79,4 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 [livepodd]: mailto:livepodd@gmail.com "livepodd@gmail.com"
 [oredev17]:  http://oredev.org "Øredev 2017"
 [javaforum18]: https://www.meetup.com/Javaforum-Goteborg/events/246859957/
+[suseevent]:https://kodsnack.se/suse
