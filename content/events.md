@@ -9,7 +9,7 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ## 2018
 
-### Suse expert day
+### [Suse expert day][https://kodsnack.se/suse]
 10 april, Stockholm
 
 ### [Javaforum][javaforum18]
@@ -48,10 +48,10 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 22 september, Stockholm - koden "kodsnack" ger 400 kr rabatt vid anmälan
 23 september, Göteborg - koden "kodsnack" ger 400 kr rabatt vid anmälan
 
-### [Code night 2: Lärdomar från spelbranschen][codenight2] 
+### [Code night 2: Lärdomar från spelbranschen][codenight2]
 17 juni, Stockholm
 
-### [Gothenburg startup hack][gbgstartuphack] 
+### [Gothenburg startup hack][gbgstartuphack]
 16 maj, Göteborg
 
 ### [Code night 1: Internet of things][codenight1]
