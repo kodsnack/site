@@ -15,8 +15,8 @@ och ibland har vi gäster som pratar med oss.
 För frågor om annonsering och innehåll använd e-postadressen:
 [info@kodsnack.se](mailto:info@kodsnack.se)
 
-Vi har även en kanal på [Slack](https://slack.com/) som ni är hemskt 
-välkomna att ansluta till! Skicka mailadressen ni vill använda till 
+Vi har även en kanal på [Slack](https://slack.com/) som ni är hemskt
+välkomna att ansluta till! Skicka mailadressen ni vill använda till
 [info@kodsnack.se](mailto:info@kodsnack.se) så lägger vi till er!
 
 
@@ -44,22 +44,21 @@ dyker det upp några rader när andan faller på.
 
 <img src="/img/tru1003.jpg" style="float:right;margin-left:1rem;" />
 
-Tobias jobbar på [Plex][t1] som mjukvaruutvecklare. Innan det har han varit
-projektledare på [Purple Scout][t2] och tekniskt säljstöd på Procera
-Network.
+Tobias jobbar på [Plex][t1] som team lead för byggsystem och bygginfrastruktur.
+Innan det har han varit projektledare på [Purple Scout][t2] och tekniskt
+säljstöd på Procera Network.
 
-Tobias har alltid jobbat med mjukvara på sin fritid och har bland
-annat skrivit stora delar av [XMMS2][t3]. All hans open source-mjukvara
-finns på [Github][t5]
+På fritiden driver Tobias Gävle Dev Meetup. Läs mer på [Meetup][t3] sidan.
 
-Du kan även hitta Tobias på [AppSnack][t4], en svensk podcast om Apple,
-iPhone, iPad.
+All hans open source-mjukvara finns på [Github][t4] och CV på [LinkedIn][t5]. På
+fritiden spelar han [för mycket][t6] Destiny.
 
   [t1]: http://plex.tv/
   [t2]: http://purplescout.se/
-  [t3]: http://xmms2.org/
-  [t4]: http://apptv.se/
-  [t5]: http://github.com/tru
+  [t3]: https://www.meetup.com/Gavle-Developer-Meetup/?_cookie-check=90Jdk0CBQzXlh0Ot
+  [t4]: http://github.com/tru
+  [t5]: https://www.linkedin.com/in/tobiashieta/
+  [t6]: http://raid.report/pc/4611686018467351195
 
 <br clear="all">
 
@@ -85,7 +84,7 @@ Han bloggar inte på [koru.se][k2].
 
 <img src="/img/amanda.jpg" style="float:right;margin-left:1rem;" />
 
-Amanda är Kodsnacks nytillskott och jobbar som konsult på [Cygni][a1] i Stockholm. Sedan hösten 2016 kodar hon Java på fintechbolaget [Scila][a2]. 
+Amanda är Kodsnacks nytillskott och jobbar som konsult på [Cygni][a1] i Stockholm. Sedan hösten 2016 kodar hon Java på fintechbolaget [Scila][a2].
 
 När Amanda inte jobbar är det inte omöjligt att hon spelar brädspel, går på museum eller spelar in ett avsnitt av podden [Still in beta][a3].
 
