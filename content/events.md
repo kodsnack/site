@@ -15,6 +15,10 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 ### [Javaforum][javaforum18]
 25 april, Göteborg
 
+&nbsp;
+<hr>
+&nbsp;
+
 ## Tidigare framträdanden 2017
 ### [Øredev][oredev17]
 8-10 november, Malmö
