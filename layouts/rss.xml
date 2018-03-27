@@ -5,7 +5,6 @@
     <language>en-US</language>
     <author>Kodsnack</author>
     <rights>Copyright (c) 2014, Kodsnack; all rights reserved.</rights>
-    <itunes:new-feed-url>{{ .Site.Params.FeedURL }}</itunes:new-feed-url>
     <updated>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</updated>
     {{ range where .Site.Pages "Section" "avsnitt" }}
     <item>
