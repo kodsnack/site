@@ -6,6 +6,7 @@ pluralizeListTitles = false
 [params]
 Description = "Podcast om kod, för kodare. På svenska."
 CopyrightHTML = "<a href=\"https://github.com/kodsnack\">github.com/kodsnack</a>"
+FeedURL = "https://feeds.kodsnack.se"
 
 [permalinks]
 avsnitt = "/:slug/"
