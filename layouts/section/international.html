@@ -12,7 +12,7 @@
       </p>
 
       <ul class="posts">
-        {{ range where .Site.Pages "Section" "avsnitt"  }}
+        {{ range where .Data.Pages "Section" "avsnitt"  }}
             {{ if .Params.english }}
             <li>
               <span class="post-list">
