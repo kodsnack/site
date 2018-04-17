@@ -9,15 +9,18 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ## 2018
 
-### [Suse expert day][suseevent]
-10 april, Stockholm
-
 ### [Javaforum][javaforum18]
 25 april, Göteborg
 
 &nbsp;
 <hr>
 &nbsp;
+
+## Tidigare framträdanden 2018
+
+### [Suse expert day][suseevent]
+10 april, Stockholm
+
 
 ## Tidigare framträdanden 2017
 ### [Øredev][oredev17]
