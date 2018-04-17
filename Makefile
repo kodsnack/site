@@ -7,5 +7,5 @@ serve:
 
 deploy:
 	@hugo --theme=kodsnack --forceSyncStatic --enableGitInfo --logFile /mnt/persist/hugo.log -d ${DEST}
-	@hugo --theme=kodsnack -D --verboseLog --forceSyncStatic --enableGitInfo --logFile /mnt/persist/hugo.log -d ${BETA_DEST}
+	@hugo --theme=kodsnack -D --debug --verboseLog --forceSyncStatic --enableGitInfo --logFile /mnt/persist/hugo.log -d ${BETA_DEST}
 
