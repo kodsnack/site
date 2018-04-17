@@ -6,5 +6,6 @@ serve:
 	@hugo server --theme=kodsnack --buildDrafts --watch
 
 deploy:
-	@hugo --theme=kodsnack -d ${DEST}
+	@hugo --theme=kodsnack --forceSyncStatic --enableGitInfo --logFile /mnt/persist/hugo.log -d ${DEST}
+	@hugo --theme=kodsnack -D --forceSyncStatic --enableGitInfo --logFile /mnt/persist/hugo.log -d ${BETA_DEST}
 
