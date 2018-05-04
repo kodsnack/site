@@ -7,12 +7,25 @@ aliases = ["/events/"]
 
 I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakta oss på [info@kodsnack.se](mailto:info@kodsnack.se) för mer information.
 
-## 2017
+## 2018
 
+### [Javaforum][javaforum18]
+25 april, Göteborg
+
+&nbsp;
+<hr>
+&nbsp;
+
+## Tidigare framträdanden 2018
+
+### [Suse expert day][suseevent]
+10 april, Stockholm
+
+
+## Tidigare framträdanden 2017
 ### [Øredev][oredev17]
 8-10 november, Malmö
 
-## Tidigare framträdanden 2017
 ### After work och livepodd med Suse
 3 oktober 17:00, Hobo, Brunkebergstorg 4, Stockholm - anmälan med namn och eventuellt företag till [livepodd@gmail.com][livepodd]
 
@@ -42,10 +55,10 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 22 september, Stockholm - koden "kodsnack" ger 400 kr rabatt vid anmälan
 23 september, Göteborg - koden "kodsnack" ger 400 kr rabatt vid anmälan
 
-### [Code night 2: Lärdomar från spelbranschen][codenight2] 
+### [Code night 2: Lärdomar från spelbranschen][codenight2]
 17 juni, Stockholm
 
-### [Gothenburg startup hack][gbgstartuphack] 
+### [Gothenburg startup hack][gbgstartuphack]
 16 maj, Göteborg
 
 ### [Code night 1: Internet of things][codenight1]
@@ -68,3 +81,5 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 [internetdagarna15]: https://internetdagarna.se "Internetdagarna 2015"
 [livepodd]: mailto:livepodd@gmail.com "livepodd@gmail.com"
 [oredev17]:  http://oredev.org "Øredev 2017"
+[javaforum18]: https://www.meetup.com/Javaforum-Goteborg/events/246859957/
+[suseevent]:https://kodsnack.se/suse

@@ -31,18 +31,18 @@
         </itunes:owner>
         <itunes:summary>All the English episodes of Kodsnack - a podcast by developers, about anything interesting to developers</itunes:summary>
         <itunes:subtitle>A podcast by developers, about anything interesting to developers</itunes:subtitle>
-        {{ range .Site.Sections.avsnitt }}{{ if .Page.Params.english}}
+        {{ range where .Data.Pages "Section" "avsnitt" }}{{ if .Params.english}}
             <item>
-                <title>{{ .Page.Title }} </title>
-                <pubDate>{{ .Page.Date.Format "02 Jan 2006 15:04 -0700" | safeHTML }}</pubDate>
-                <guid>{{ .Page.Permalink }}</guid>
-                <link>{{ .Page.Permalink }}</link>
+                <title>{{ .Title }} </title>
+                <pubDate>{{ .Date.Format "02 Jan 2006 15:04 -0700" | safeHTML }}</pubDate>
+                <guid>{{ .Permalink }}</guid>
+                <link>{{ .Permalink }}</link>
                 <itunes:image href="http://kodsnack.se/img/sumpsnack.png"/>
                 <description>
-                    {{ .Page.Content | html }}
+                    {{ .Content | html }}
                 </description>
-                <enclosure length="{{ .Page.Params.audiosize }}" type="audio/mpeg" url="{{ .Page.Params.audiofile }}"/>
-                <itunes:duration>{{ .Page.Params.audiolength }}</itunes:duration>
+                <enclosure length="{{ .Params.audiosize }}" type="audio/mpeg" url="{{ .Params.audiofile }}"/>
+                <itunes:duration>{{ .Params.audiolength }}</itunes:duration>
                 <itunes:explicit>yes</itunes:explicit>
                 <itunes:keywords/>
                 <itunes:subtitle>

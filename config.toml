@@ -1,6 +1,6 @@
-BaseURL = "http://kodsnack.se"
+BaseURL = "https://kodsnack.se"
 languageCode = "sv"
-title = "Kodsnack"
+title = "Kodsnack - podd av kodare, för kodare, på svenska"
 pluralizeListTitles = false
 
 [params]
@@ -52,12 +52,12 @@ avsnitt = "/:slug/"
 
 [[menu.main]]
         name = "Prenumerera (RSS)"
-        url = "http://feedpress.me/kodsnack"
+        url = "https://feeds.kodsnack.se"
         weight = -192
 
 [[menu.main]]
         name = "Prenumerera (iTunes)"
-        url = "http://itunes.apple.com/se/podcast/kodsnack/id561631498?l=en"
+        url = "https://itunes.apple.com/se/podcast/kodsnack/id561631498?l=en"
         weight = -191
 
 [[menu.main]]
@@ -74,4 +74,3 @@ avsnitt = "/:slug/"
         name = "@kodsnack"
         url = "https://twitter.com/KodSnack"
         weight = -188
-

@@ -44,22 +44,21 @@ dyker det upp några rader när andan faller på.
 
 <img src="/img/tru1003.jpg" style="float:right;margin-left:1rem;" />
 
-Tobias jobbar på [Plex][t1] som mjukvaruutvecklare. Innan det har han varit
-projektledare på [Purple Scout][t2] och tekniskt säljstöd på Procera
-Network.
+Tobias jobbar på [Plex][t1] som team lead för byggsystem och bygginfrastruktur.
+Innan det har han varit projektledare på [Purple Scout][t2] och tekniskt
+säljstöd på Procera Network.
 
-Tobias har alltid jobbat med mjukvara på sin fritid och har bland
-annat skrivit stora delar av [XMMS2][t3]. All hans open source-mjukvara
-finns på [Github][t5]
+På fritiden driver Tobias Gävle Dev Meetup. Läs mer på [Meetup][t3] sidan.
 
-Du kan även hitta Tobias på [AppSnack][t4], en svensk podcast om Apple,
-iPhone, iPad.
+All hans open source-mjukvara finns på [Github][t4] och CV på [LinkedIn][t5]. På
+fritiden spelar han [för mycket][t6] Destiny.
 
   [t1]: http://plex.tv/
   [t2]: http://purplescout.se/
-  [t3]: http://xmms2.org/
-  [t4]: http://apptv.se/
-  [t5]: http://github.com/tru
+  [t3]: https://www.meetup.com/Gavle-Developer-Meetup/?_cookie-check=90Jdk0CBQzXlh0Ot
+  [t4]: http://github.com/tru
+  [t5]: https://www.linkedin.com/in/tobiashieta/
+  [t6]: http://raid.report/pc/4611686018467351195
 
 <br clear="all">
 
@@ -74,12 +73,10 @@ Malmö i ett antal år växte intresset för fri mjukvara, och numera
 jobbar han på [SUSE][k1] där han hackar på diverse projekt relaterade till
 High Availability.
 
-Han bloggar ibland på [koru.se][k2] och har en hemsida han sällan uppdaterar
-på [kri.gs][k3].
+Han bloggar inte på [koru.se][k2].
 
   [k1]: http://suse.com/
   [k2]: http://koru.se/
-  [k3]: http://kri.gs/
 
 <br clear="all">
 
