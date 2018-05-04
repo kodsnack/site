@@ -87,12 +87,12 @@ på [kri.gs][k3].
 
 <img src="/img/amanda.jpg" style="float:right;margin-left:1rem;" />
 
-Amanda är Kodsnacks nytillskott och jobbar som konsult på [Cygni][a1] i Stockholm. Sedan hösten 2016 kodar hon Java på fintechbolaget [Scila][a2]. 
+Amanda är Kodsnacks nytillskott, hon jobbar som konsult på [Cygni][a1] i Stockholm och senast vi kollade höll hon på med devops på [Klarna][a2].
 
 När Amanda inte jobbar är det inte omöjligt att hon spelar brädspel, går på museum eller spelar in ett avsnitt av podden [Still in beta][a3].
 
   [a1]: http://cygni.se
-  [a2]: http://scila.se/
+  [a2]: https://www.klarna.com/se/
   [a3]: http://stillinbeta.se/
 
 <br clear="all">
