@@ -3,7 +3,7 @@
 all: deploy
 
 international:
-	grep -l "^english\s\?=\s\?true" content/avsnitt/*.md | xargs cp -ft content/international/
+	grep -l "^english\s\?=\s\?true" content/avsnitt/*.md | xargs -I args cp -f args content/international/
 
 serve: international
 	@hugo server --theme=kodsnack --buildDrafts --watch
