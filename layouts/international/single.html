@@ -13,7 +13,7 @@
       {{ end }}
 
       {{ if .Params.audiofile }}
-      <span class="post-download"><a href="{{ .Params.audiofile }}">Ladda ner (mp3)</a></span>
+      <span class="post-download"><a href="{{ .Params.audiofile }}">Download (mp3)</a></span>
       <script>
         var linksInNewTab = false;
         var toggleLinkTarget = function () {
@@ -28,7 +28,7 @@
           document.getElementById('linkToggler').addEventListener('click', toggleLinkTarget);
         });
       </script>
-      <span class="open-in-tabs"><label><input type="checkbox" label="Öppna länkar i nya flikar" id="linkToggler">Öppna länkar i nya flikar</input></label></span>
+      <span class="open-in-tabs"><label><input type="checkbox" label="Open links in new tabs" id="linkToggler">Open links in new tabs</input></label></span>
       {{ end }}
 
       {{ .Content }}
