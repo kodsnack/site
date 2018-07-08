@@ -9,14 +9,19 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ## 2018
 
-### [Javaforum][javaforum18]
-25 april, Göteborg
+Just nu har vi inget inbokat som vi kan berätta om!
 
 &nbsp;
 <hr>
 &nbsp;
 
 ## Tidigare framträdanden 2018
+
+### [Techworld summit](techsummit18) ###
+12 juni, Stockholm
+
+### [Javaforum][javaforum18]
+25 april, Göteborg
 
 ### [Suse expert day][suseevent]
 10 april, Stockholm
@@ -83,3 +88,4 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 [oredev17]:  http://oredev.org "Øredev 2017"
 [javaforum18]: https://www.meetup.com/Javaforum-Goteborg/events/246859957/
 [suseevent]:https://kodsnack.se/suse
+[techsummit18]:https://techworld.event.idg.se/event/summit/
