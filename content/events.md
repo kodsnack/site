@@ -9,11 +9,8 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ## 2018
 
-Just nu har vi inget inbokat som vi kan berätta om!
-
-&nbsp;
-<hr>
-&nbsp;
+### [Øredev][oredev18]
+19-21 november, Malmö
 
 ## Tidigare framträdanden 2018
 
@@ -85,7 +82,8 @@ Just nu har vi inget inbokat som vi kan berätta om!
 [oredev14]: http://oredev.org/2014 "Øredev 2014"
 [internetdagarna15]: https://internetdagarna.se "Internetdagarna 2015"
 [livepodd]: mailto:livepodd@gmail.com "livepodd@gmail.com"
-[oredev17]:  http://oredev.org "Øredev 2017"
+[oredev17]:  http://oredev.org/2017 "Øredev 2017"
 [javaforum18]: https://www.meetup.com/Javaforum-Goteborg/events/246859957/
 [suseevent]:https://kodsnack.se/suse
 [techsummit18]:https://techworld.event.idg.se/event/summit/
+[oredev18]:  http://oredev.org "Øredev 2017"
