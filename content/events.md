@@ -7,12 +7,15 @@ aliases = ["/events/"]
 
 I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakta oss på [info@kodsnack.se](mailto:info@kodsnack.se) för mer information.
 
-## 2018
+## 2019
+
+### [Foss-north][fossnorth19]
+7-9 april, Göteborg
+
+## Tidigare framträdanden 2018
 
 ### [Øredev][oredev18]
 19-21 november, Malmö
-
-## Tidigare framträdanden 2018
 
 ### [Techworld summit](techsummit18) ###
 12 juni, Stockholm
@@ -87,3 +90,4 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 [suseevent]:https://kodsnack.se/suse
 [techsummit18]:https://techworld.event.idg.se/event/summit/
 [oredev18]:  http://oredev.org "Øredev 2017"
+[fossnorth19]: https://foss-north.se/2019/ "Foss-north 2019"
