@@ -9,6 +9,9 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ## 2019
 
+### [Devsum][devsum19]
+23-24 maj, Stockholm
+
 ### [Foss-north][fossnorth19]
 7-9 april, Göteborg
 
@@ -91,3 +94,4 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 [techsummit18]:https://techworld.event.idg.se/event/summit/
 [oredev18]:  http://oredev.org "Øredev 2017"
 [fossnorth19]: https://foss-north.se/2019/ "Foss-north 2019"
+[devsum19]: http://www.devsum.se "Devsum 2019"
