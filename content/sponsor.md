@@ -17,7 +17,7 @@ Du får en sponsorläsning i själva avsnittet samt motsvarande information plus
 Vårt standardupplägg för sponsorläsningar är att vi i samarbete med dig som sponsor tar fram en läsning med våra egna ord utifrån ditt material. Givetvis får du möjlighet att höra läsningen innan avsnittet släpps, och vi diskuterar gärna nya idéer på upplägg.
 
 ### Tidigare sponsorer ###
-Tidigare sponsorer inkluderar [Jetbrains](http://kodsnack.se/99/), [Procera networks](http://kodsnack.se/66/), [Jayway](http://kodsnack.se/218/), [Dataföreningen kompetens](http://kodsnack.se/155/), [Developers bay](https://kodsnack.se/301/), [Växjö](https://kodsnack.se/262/), [PE accounting](http://kodsnack.se/153/) och [Cenito](http://kodsnack.se/51/).
+Tidigare sponsorer inkluderar [Jetbrains](http://kodsnack.se/99/), [Procera networks](http://kodsnack.se/66/), [Jayway](http://kodsnack.se/218/), [Dataföreningen kompetens](http://kodsnack.se/155/), [Developers bay](https://kodsnack.se/301/), [Växjö](https://kodsnack.se/262/), [PE accounting](http://kodsnack.se/153/), [Prevas](https://kodsnack.se/314/) och [Cenito](http://kodsnack.se/51/).
 
 Kontakta oss på [info@kodsnack.se](mailto:info@kodsnack.se) för mer information!
 

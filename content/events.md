@@ -9,6 +9,11 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ## 2019
 
+### [Day of the programmer][dop19]
+10 september, Jönköping
+
+## Tidigare framträdanden 2019
+
 ### [Devsum][devsum19]
 23-24 maj, Stockholm
 
@@ -28,7 +33,6 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ### [Suse expert day][suseevent]
 10 april, Stockholm
-
 
 ## Tidigare framträdanden 2017
 ### [Øredev][oredev17]
@@ -76,6 +80,7 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 ### [Øredev][oredev14]
 4-7 november, Malmö
 
+[dop19]: https://dayoftheprogrammer.se
 [startuparena]: http://www.gbgtechweek.com/#startuparena
 [devsum16]: http://www.devsum.se
 [devops2016]: http://techworld.event.idg.se/event/devops-summit-2016/ "Devops summit 2016"
