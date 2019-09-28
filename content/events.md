@@ -9,10 +9,13 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 
 ## 2019
 
-### [Day of the programmer][dop19]
-10 september, Jönköping
+### [Øredev][oredev19]
+6-8 november, Malmö
 
 ## Tidigare framträdanden 2019
+
+### [Day of the programmer][dop19]
+10 september, Jönköping
 
 ### [Devsum][devsum19]
 23-24 maj, Stockholm
@@ -97,6 +100,7 @@ I mån av tid dyker vi gärna upp på konferenser, meetups och liknande. Kontakt
 [javaforum18]: https://www.meetup.com/Javaforum-Goteborg/events/246859957/
 [suseevent]:https://kodsnack.se/suse
 [techsummit18]:https://techworld.event.idg.se/event/summit/
-[oredev18]:  http://oredev.org "Øredev 2017"
+[oredev18]:  http://oredev.org "Øredev 2018"
 [fossnorth19]: https://foss-north.se/2019/ "Foss-north 2019"
 [devsum19]: http://www.devsum.se "Devsum 2019"
+[oredev19]:  http://oredev.org "Øredev 2019"
