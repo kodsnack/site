@@ -80,16 +80,18 @@ Han bloggar inte på [koru.se][k2].
 
 <br clear="all">
 
+## Andra folk som dyker upp i podden ibland
+
 ### Amanda
 
 <img src="/img/amanda.jpg" style="float:right;margin-left:1rem;" />
 
 Amanda är Kodsnacks nytillskott, hon jobbar som konsult på [Cygni][a1] i Stockholm och senast vi kollade höll hon på med devops på [Klarna][a2].
 
-När Amanda inte jobbar är det inte omöjligt att hon spelar brädspel, går på museum eller spelar in ett avsnitt av podden [Still in beta][a3].
+När Amanda inte jobbar är det inte omöjligt att hon spelar brädspel eller går på museum.
 
   [a1]: http://cygni.se
   [a2]: https://www.klarna.com/se/
-  [a3]: http://stillinbeta.se/
+  [a3]: http://stillinbeta.se
 
 <br clear="all">
