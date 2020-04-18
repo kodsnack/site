@@ -68,15 +68,19 @@ fritiden spelar han [för mycket][t6] Destiny.
 <img src="/img/kristoffer.jpg" style="float:left;margin-right:1rem;" />
 
 Kristoffer lärde sig programmera på en Commodore 64 med drömmar om att
-en dag bli spelutvecklare. Efter att ha levt drömmen på Massive i
-Malmö i ett antal år växte intresset för fri mjukvara, och numera
-jobbar han på [SUSE][k1] där han hackar på diverse projekt relaterade till
-High Availability.
+en dag bli spelutvecklare, en dröm som så småningom blev sann. Efter
+många om och men jobbade han till slut i många år med distribuerade
+system på [SUSE][k1], men har nu startat sitt eget bolag under namnet
+[Ziran AB][k5].
 
-Han bloggar inte på [koru.se][k2].
+Han bloggar väldigt sällan som [6510.nu][k2], kodar oftast på [github.com/krig][k4]
+och twittrar ibland som [@antikristoffer][k3].
 
-  [k1]: http://suse.com/
-  [k2]: http://koru.se/
+  [k1]: https://suse.com/
+  [k2]: https://6510.nu/
+  [k3]: https://twitter.com/antikristoffer
+  [k4]: https://github.com/krig
+  [k5]: https://ziran.se
 
 <br clear="all">
 
