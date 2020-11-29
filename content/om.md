@@ -84,7 +84,7 @@ och twittrar ibland som [@antikristoffer][k3].
 
 <br clear="all">
 
-## Andra folk som dyker upp i podden ibland
+## Andra som dyker upp i podden ibland
 
 ### Amanda
 
