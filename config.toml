@@ -21,56 +21,61 @@ avsnitt = "/:slug/"
         weight = -199
 
 [[menu.main]]
+        name = "🛒 Handla"
+        url = "https://shop.spreadshirt.se/kodsnack/"
+        weight = -198
+
+[[menu.main]]
         name = "Sponsra"
         url = "/sponsor/"
-        weight = -198
+        weight = -197
 
 [[menu.main]]
         name = "Kod"
         url = "/code/"
-        weight = -197
+        weight = -196
 
 [[menu.main]]
         name = "Framträdanden"
         url = "/events/"
-        weight = -196
+        weight = -195
 
 [[menu.main]]
         name = "🇬🇧 English feed"
         url = "/international/"
-        weight = -195
+        weight = -194
 
 [[menu.main]]
         name = "Video"
         url = "/video/"
-        weight = -194
+        weight = -193
 
 [[menu.main]]
         name = "Sumpsnack (bonusmaterial)"
         url = "/sumpsnack/"
-        weight = -193
+        weight = -192
 
 [[menu.main]]
         name = "Prenumerera (RSS)"
         url = "https://feeds.kodsnack.se"
-        weight = -192
+        weight = -191
 
 [[menu.main]]
         name = "Prenumerera (iTunes)"
         url = "https://itunes.apple.com/se/podcast/kodsnack/id561631498?l=en"
-        weight = -191
+        weight = -190
 
 [[menu.main]]
         name = "Prenumerera (Overcast)"
         url = "https://overcast.fm/itunes561631498/kodsnack"
-        weight = -190
+        weight = -189
 
 [[menu.main]]
         name = "Prenumerera (Pocket casts)"
         url = "http://pca.st/h7lO"
-        weight = -189
+        weight = -188
 
 [[menu.main]]
         name = "@kodsnack"
         url = "https://twitter.com/KodSnack"
-        weight = -188
+        weight = -187
