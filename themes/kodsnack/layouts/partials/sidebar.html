@@ -1,0 +1,32 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseURL }}"><div class="sidebar-header">
+      </div></a>
+      <p class="lead">
+      {{ with .Site.Params.Description }} {{.}} {{ else }} Ett tema
+      för <a href="http://kodsnack.se">kodsnack</a>
+      av <a href="http://kri.gs">krig</a>. Skamlös kopia av Hyde från
+      Jekyll.{{end}}
+      </p>
+      <p><script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Köp en kaffe till oss!', '#46b798', 'E1E5W91T');kofiwidget2.draw();</script></p>
+    </div>
+
+    <ul class="sidebar-nav">
+      {{ range .Site.Menus.main }}
+        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+      {{end}}
+    </ul>
+
+    <div class="sidebar-copyright">
+    {{ if .Site.Params.CopyrightHTML }}
+    {{.Site.Params.CopyrightHTML | safeHTML}}
+    {{ else if .Site.Params.Copyright }}
+    {{.Site.Params.Copyright}}
+    {{ else }}
+    &copy; Inget är tillåtet.
+    {{end}}
+    </div>
+  </div>
+</div>
