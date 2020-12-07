@@ -9,5 +9,5 @@ serve: international
 	@hugo server --theme=kodsnack --buildFuture --buildDrafts --watch
 
 deploy: international
-	@hugo --theme=kodsnack --buildFuture --buildDrafts --buildExpired --enableGitInfo --logFile /mnt/persist/hugo.log -d ${DEST}
-	@hugo --theme=kodsnack -D --buildFuture --buildDrafts --buildExpired --enableGitInfo --logFile /mnt/persist/hugo.log -d ${BETA_DEST}
+	@hugo --theme=kodsnack --buildFuture --buildExpired --enableGitInfo --logFile /mnt/persist/hugo.log -d ${DEST}
+	@hugo --theme=kodsnack -D --buildFuture --buildExpired --enableGitInfo --logFile /mnt/persist/hugo.log -d ${BETA_DEST}
