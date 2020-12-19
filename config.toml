@@ -84,3 +84,7 @@ avsnitt = "/:slug/"
         name = "@kodsnack"
         url = "https://twitter.com/KodSnack"
         weight = -187
+[[menu.main]]
+        name = "Att vara gäst"
+        url = "/guest/"
+        weight = -186
