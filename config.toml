@@ -15,6 +15,12 @@ CopyrightHTML = "<a href=\"https://github.com/kodsnack\">github.com/kodsnack</a>
 [permalinks]
 avsnitt = "/:slug/"
 
+[taxonomies]
+  category = "categories"
+  people = "people"
+  tag = "tags"
+  sponsor = "sponsor"
+
 [[menu.main]]
         name = "Om"
         url = "/om/"
