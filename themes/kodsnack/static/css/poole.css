@@ -385,13 +385,20 @@ tbody tr:nth-child(odd) th {
 }
 
 .post-list {
-    font-size: 90%;
-    white-space:nowrap;
+  font-size: 90%;
+  white-space: wrap;
 }
 
 .post-list time {
     color: #9a9a9a;
 }
+
+@media (min-width: 48rem) {
+  .post-list {
+    white-space: nowrap;
+  }
+} 
+   
 
 
 /*
