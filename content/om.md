@@ -98,3 +98,5 @@ När Amanda inte jobbar är det inte omöjligt att hon spelar brädspel eller g�
   [a2]: https://www.klarna.com/se/
 
 <br clear="all">
+
+[Fullständig deltagarlista](https://kodsnack.se/people/).

@@ -38,7 +38,7 @@ avsnitt = "/:slug/"
 
 [[menu.main]]
         name = "Sponsra"
-        url = "/sponsor/"
+        url = "/sponsra/"
         weight = -197
 
 [[menu.main]]

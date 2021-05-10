@@ -19,6 +19,8 @@ Vårt standardupplägg för sponsorläsningar är att vi i samarbete med dig som
 ### Tidigare sponsorer ###
 Tidigare sponsorer inkluderar [GleSYS](https://kodsnack.se/397/), [46elks](https://kodsnack.se/), [IKEA](https://kodsnack.se/340/), [Jetbrains](http://kodsnack.se/99/), [Procera networks](http://kodsnack.se/66/), [Jayway](http://kodsnack.se/218/), [Dataföreningen kompetens](http://kodsnack.se/155/), [Developers bay](https://kodsnack.se/301/), [Växjö](https://kodsnack.se/262/), [PE accounting](http://kodsnack.se/153/), [Prevas](https://kodsnack.se/314/) och [Cenito](http://kodsnack.se/51/).
 
+[Komplett sponsorlista](https://kodsnack.se/sponsor/).
+
 Kontakta oss på [info@kodsnack.se](mailto:info@kodsnack.se) för mer information!
 
 ## Kodsnack på ditt evenemang? ##
