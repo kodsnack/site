@@ -91,6 +91,10 @@ avsnitt = "/:slug/"
         url = "https://twitter.com/KodSnack"
         weight = -187
 [[menu.main]]
+        name = "📼 Youtube"
+        url = "https://www.youtube.com/channel/UCyF3GrbgMV5THKZF4lpcQpg/videos?view=57"
+        weight = -186
+[[menu.main]]
         name = "Att vara gäst"
         url = "/guest/"
-        weight = -186
+        weight = -185
