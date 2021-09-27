@@ -37,64 +37,69 @@ avsnitt = "/:slug/"
         weight = -198
 
 [[menu.main]]
+        name = "Slack"
+        url = "https://join.slack.com/t/podsnack/shared_invite/zt-wh2ussm9-xFOqpvjgF16G2eDhaBy1hw"
+        weight = -197
+
+[[menu.main]]
         name = "Sponsra"
         url = "/sponsra/"
-        weight = -197
+        weight = -196
 
 [[menu.main]]
         name = "Kod"
         url = "/code/"
-        weight = -196
+        weight = -195
 
 [[menu.main]]
         name = "Framträdanden"
         url = "/events/"
-        weight = -195
+        weight = -194
 
 [[menu.main]]
         name = "🇬🇧 English feed"
         url = "/international/"
-        weight = -194
+        weight = -193
 
 [[menu.main]]
         name = "Video"
         url = "/video/"
-        weight = -193
+        weight = -192
 
 [[menu.main]]
         name = "Sumpsnack (bonusmaterial)"
         url = "/sumpsnack/"
-        weight = -192
+        weight = -191
 
 [[menu.main]]
         name = "Prenumerera (RSS)"
         url = "https://feeds.kodsnack.se"
-        weight = -191
+        weight = -190
 
 [[menu.main]]
         name = "Prenumerera (iTunes)"
         url = "https://itunes.apple.com/se/podcast/kodsnack/id561631498?l=en"
-        weight = -190
+        weight = -189
 
 [[menu.main]]
         name = "Prenumerera (Overcast)"
         url = "https://overcast.fm/itunes561631498/kodsnack"
-        weight = -189
+        weight = -188
 
 [[menu.main]]
         name = "Prenumerera (Pocket casts)"
         url = "http://pca.st/h7lO"
-        weight = -188
+        weight = -187
 
 [[menu.main]]
         name = "@kodsnack"
         url = "https://twitter.com/KodSnack"
-        weight = -187
+        weight = -186
 [[menu.main]]
         name = "📼 Youtube"
         url = "https://www.youtube.com/channel/UCyF3GrbgMV5THKZF4lpcQpg/videos?view=57"
-        weight = -186
+        weight = -185
 [[menu.main]]
         name = "Att vara gäst"
         url = "/guest/"
-        weight = -185
+        weight = -184
