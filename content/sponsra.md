@@ -22,7 +22,7 @@ Vi erbjuder mängdrabatt vid bokning av fler avsnitt, och det går utmärkt att 
 * En tredje variant är ett helsponsrat avsnitt - där du som sponsor har fria händer att ta fram innehållet tillsammans med oss. Dessa avsnitt släpps dessutom utöver ordinarie avsnitt, vilket gör att du om du vill också kan välja både dag och tid när avsnittet når lyssnarna.
 
 ### Tidigare sponsorer ###
-Tidigare sponsorer inkluderar [GleSYS](https://kodsnack.se/397/), [46elks](https://kodsnack.se/), [IKEA](https://kodsnack.se/340/), [Jetbrains](http://kodsnack.se/99/), [Procera networks](http://kodsnack.se/66/), [Jayway](http://kodsnack.se/218/), [Dataföreningen kompetens](http://kodsnack.se/155/), [Developers bay](https://kodsnack.se/301/), [Växjö](https://kodsnack.se/262/), [PE accounting](http://kodsnack.se/153/), [Prevas](https://kodsnack.se/314/) och [Cenito](http://kodsnack.se/51/).
+Tidigare sponsorer inkluderar [GleSYS](https://kodsnack.se/397/), [46elks](https://kodsnack.se/sponsor/46elks/), [IKEA](https://kodsnack.se/340/), [Jetbrains](http://kodsnack.se/99/), [Procera networks](http://kodsnack.se/66/), [Jayway](http://kodsnack.se/218/), [Dataföreningen kompetens](http://kodsnack.se/155/), [Developers bay](https://kodsnack.se/301/), [Växjö](https://kodsnack.se/262/), [PE accounting](http://kodsnack.se/153/), [Prevas](https://kodsnack.se/314/) och [Cenito](http://kodsnack.se/51/).
 
 [Komplett sponsorlista](https://kodsnack.se/sponsor/).
 
