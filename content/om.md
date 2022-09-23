@@ -44,18 +44,15 @@ dyker det upp några rader när andan faller på.
 
 <img src="/img/tru1003.jpg" style="float:right;margin-left:1rem;" />
 
-Tobias jobbar på [Plex][t1] som team lead för byggsystem och bygginfrastruktur.
-Innan det har han varit projektledare på [Purple Scout][t2] och tekniskt
-säljstöd på Procera Network.
-
-På fritiden driver Tobias Gävle Dev Meetup. Läs mer på [Meetup][t3] sidan.
+Tobias jobbar på [Ubisoft](https://ubisoft.com) som LLVM utvecklare. Han är även inblandad i
+Open Source projektet [LLVM](https://llvm.org) och har bland annat varit Release Manager.
+Innan det har han jobbat på [Plex][t1], [Purple Scout][t2] och Procera Networks.
 
 All hans open source-mjukvara finns på [Github][t4] och CV på [LinkedIn][t5]. På
 fritiden spelar han [för mycket][t6] Destiny.
 
   [t1]: http://plex.tv/
   [t2]: http://purplescout.se/
-  [t3]: https://www.meetup.com/Gavle-Developer-Meetup/?_cookie-check=90Jdk0CBQzXlh0Ot
   [t4]: http://github.com/tru
   [t5]: https://www.linkedin.com/in/tobiashieta/
   [t6]: http://raid.report/pc/4611686018467351195
