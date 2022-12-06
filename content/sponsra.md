@@ -6,9 +6,13 @@ aliases = ["/sponsor/"]
 +++
 
 ## Sponsra avsnitt ##
-Har du en intressant produkt att sälja? En utbildning att göra reklam för? Vill du anställa utvecklare? Sponsra Kodsnack och nå direkt ut till tusentals av sveriges utvecklare! Ett nytt avsnitt släpps varje tisdagsmorgon och är en del av många lyssnares frukost, kaffepaus, eller pendling redan samma dag.
+Har du en intressant produkt att sälja? En utbildning att göra reklam för? Vill du anställa utvecklare? Gör som [IKEA](https://kodsnack.se/sponsor/ikea/), [GleSYS](https://kodsnack.se/sponsor/glesys/) och [många fler](https://kodsnack.se/sponsor/): sponsra Kodsnack och nå direkt ut till tusentals av sveriges utvecklare!
 
-### Varför sponsra en podd? ###
+### Trogna lyssnare, som delar vad de hör ###
+Kodsnack är något av en institution med över tio år på nacken. Ett nytt avsnitt släpps varje tisdagsmorgon, året runt, och är en del av många lyssnares frukost, kaffepaus, eller pendling redan samma dag. Nya lyssnare fortsätter dessutom leta sig bakåt och lyssna på äldre avsnitt, så din sponsring kommer att fortsätta höras långt efter sponsringstillfället.
+
+Våra lyssnare är också bra på att dela med sig av podden till andra - enligt Spotifys statistik för 2022 är Kodsnack bland de 10% mest delade poddarna i världen, och tillhör de 5% som har flest följare. 
+
 Sponsring i poddar ger mycket högre engagemang än de flesta andra sorters annonser. Lyssnarna hör din information som en del av podden, och vi använder våra egna ord och röster vilket gör att det inte uppstår något bryskt avbrott mellan innehåll och annons (som det ofta gör på exempelvis webbsidor). Enligt [Midroll](http://www.midroll.com/) - ett stort företag på området annonsering i poddar - har 63% av de som lyssnar på poddar Midroll arbetar med köpt en produkt de hört annonseras ([källa](http://awesome.midroll.com)).
 
 ### Vad får jag? ###
@@ -17,7 +21,7 @@ Du får en sponsorläsning i själva avsnittet samt motsvarande information plus
 Vi erbjuder mängdrabatt vid bokning av fler avsnitt, och det går utmärkt att sprida ut sina sponsringstillfällen.
 
 #### Varianter ####
-* Vårt standardupplägg för sponsorläsningar är att vi i samarbete med dig som sponsor tar fram en läsning med våra egna ord utifrån ditt material. En bra tumregel är att läsningen är mellan en och tre minuter, men det viktiga är att innehållet är intressant och kommer fram på ett bra sätt. Givetvis får du möjlighet att höra läsningen innan avsnittet släpps, och vi diskuterar gärna nya idéer på upplägg.
+* Vårt klassiska standardupplägg för sponsorläsningar är att vi i samarbete med dig som sponsor tar fram en läsning med våra egna ord utifrån ditt material. En bra tumregel är att läsningen är mellan en och tre minuter, men det viktiga är att innehållet är intressant och kommer fram på ett bra sätt. Givetvis får du möjlighet att höra läsningen innan avsnittet släpps, och vi diskuterar gärna nya idéer på upplägg.
 * En annan variant för dig som vill ha en lite längre exponering är att vi gör en kortare intervju - i princip ett mini-Kodsnack - med någon på företaget om det ämne du vill förmedla. Ett utdrag av intervjun läggs in i avsnittet på samma sätt som standardläsningarna, och den kompletta intervjun kommer som en bonus sist i avsnittet.
 * En tredje variant är ett helsponsrat avsnitt - där du som sponsor har fria händer att ta fram innehållet tillsammans med oss. Dessa avsnitt släpps dessutom utöver ordinarie avsnitt, vilket gör att du om du vill också kan välja både dag och tid när avsnittet når lyssnarna.
 
