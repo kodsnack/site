@@ -92,8 +92,8 @@ avsnitt = "/:slug/"
         weight = -187
 
 [[menu.main]]
-        name = "@kodsnack"
-        url = "https://twitter.com/KodSnack"
+        name = "🦣 @kodsnack"
+        url = "https://social.podsnack.se/@kodsnack"
         weight = -186
 [[menu.main]]
         name = "📼 Youtube"
