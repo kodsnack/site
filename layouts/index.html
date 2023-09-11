@@ -8,6 +8,12 @@
       <div class="post">
         <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
         <span class="post-date">{{ .Date.Format "2006-01-02 15:04" }}</span>
+        
+       {{ if .Params.images }}
+        {{ range $imageUrl := .Params.images }}
+         <a href="https://www.kodsnack.se/{{$imageUrl}}" target="_blank"><img src="https://www.kodsnack.se/{{$imageUrl}}"></a>
+        {{ end }}
+      {{ end }}
       {{ if .Params.libsynid }}
       <div class="post-player">
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/{{ .Params.libsynid }}/height/45/width/300/theme/standard-mini/direction/no/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/" height="45" width="300" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
