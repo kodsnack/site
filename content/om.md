@@ -12,13 +12,14 @@ jobbar som programmerare på heltid, med varierande bakgrund och
 erfarenhet. Vi pratar om sånt vi är intresserade av för tillfället,
 och ibland har vi gäster som pratar med oss.
 
+[Tips för gäster](https://kodsnack.se/guest).
+
 För frågor om annonsering och innehåll använd e-postadressen:
 [info@kodsnack.se](mailto:info@kodsnack.se)
 
-Vi har även en kanal på [Slack](https://slack.com/) som ni är hemskt 
-välkomna att ansluta till! Skicka mailadressen ni vill använda till 
-[info@kodsnack.se](mailto:info@kodsnack.se) så lägger vi till er!
+[Mer information om sponsring](https://kodsnack.se/sponsra).
 
+[Ibland fastnar vi på video](https://kodsnack.se/video).
 
 ### Fredrik
 
