@@ -57,34 +57,43 @@ avsnitt = "/:slug/"
         weight = -189
 
 [[menu.main]]
+        name = "|   Spotify"
+        url = "https://open.spotify.com/show/1gXqSrlHmdqOZTmiMo19mR"
+        weight = -188
+        
+[[menu.main]]
         name = "|   Overcast"
         url = "https://overcast.fm/itunes561631498/kodsnack"
-        weight = -188
+        weight = -187
 
 [[menu.main]]
         name = "|   Pocket casts"
         url = "http://pca.st/h7lO"
-        weight = -187
+        weight = -186
 
 [[menu.main]]
         name = "| 🇬🇧 English feed"
         url = "/international/"
-        weight = -186
+        weight = -185
 
 [[menu.main]]
         name = "Sumpsnack (bonusmaterial)"
         url = "/sumpsnack/"
-        weight = -185
+        weight = -184
 
 [[menu.main]]
         name = "🦣 @kodsnack"
         url = "https://social.podsnack.se/@kodsnack"
-        weight = -184
+        weight = -183
 [[menu.main]]
         name = "📼 Youtube"
         url = "https://www.youtube.com/channel/UCyF3GrbgMV5THKZF4lpcQpg/videos?view=57"
-        weight = -183
+        weight = -182
+[[menu.main]]
+        name = "📽️ Tiktok"
+        url = "https://www.tiktok.com/@kodsnack"
+        weight = -181
 [[menu.main]]
         name = "Att vara gäst"
         url = "/guest/"
-        weight = -182
+        weight = -180
