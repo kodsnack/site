@@ -62,17 +62,17 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('/kodsnack-sidebar.png');
-    background-size: 224px 132px;
+    background-image: url('/kodsnack-sidebar-old.png');
+    background-size: 224px 224px;
     background-position: center;
     background-repeat: no-repeat;
     width: 224px;
-    height: 132px;
+    height: 224px;
 }
 
 .sump-sidebar .sidebar-header {
   background-image: url('/sumpsnack-sidebar.png');
-  background-size: 224px 132px;
+  background-size: 224px 224px;
 }
 
 @media (min-width: 48rem) {
