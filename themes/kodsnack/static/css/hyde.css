@@ -68,12 +68,14 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     width: 224px;
-    height: 224px;
+    height: 132px;
 }
 
 .sump-sidebar .sidebar-header {
   background-image: url('/sumpsnack-sidebar.png');
-  background-size: 224px 132px;
+  background-size: 224px 224px;
+  width: 224px;
+  height: 224px;
 }
 
 @media (min-width: 48rem) {
