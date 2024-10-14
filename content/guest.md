@@ -8,7 +8,7 @@ aliases = ["/guest/"]
 Vad kul att du kan tänka dig att vara med i podden! Vi kör en väldigt avslappnad stil, det allra viktigaste är att ha ett trevligt snack. Här är några tips:
 
 ## Inspelningen ##
-* Vi spelar ofta in via Skype eller Discord, men vi kan använda vilken lösning som helst om något annat är smidigare för dig
+* Vi spelar ofta in via [Squadcast](https://squadcast.fm) - som kör i webbläsaren och spelar in allt ljud - men vi kan använda vilken lösning som helst om något annat är smidigare för dig
 * Vi brukar sätta upp några ämnespunkter att utgå från. Det händer ungefär lika ofta att vi faktiskt håller oss till dem som att vi snackar om helt andra saker, och det är så vi vill ha det. Kommer du på något intressant i stunden som vi inte alls diskuterat innan: kör!
 * Du behöver inte avbryta dig om du och någon av oss börjar säga något samtidigt, vi kan klippa bort oss själva i redigeringen
 * Säg bara till om du vill ha något bortklippt, eller vill lyssna på avsnittet innan det släpps. Vi släpper inget som inte alla deltagare känner sig bekväma med
