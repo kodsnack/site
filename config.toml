@@ -4,6 +4,8 @@ title = "Kodsnack - podd av kodare, för kodare, på svenska"
 pluralizeListTitles = false
 
 [markup]
+  [markup.highlight]
+    noClasses = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
