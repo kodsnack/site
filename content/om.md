@@ -97,4 +97,4 @@ När Amanda inte jobbar är det inte omöjligt att hon spelar brädspel eller g�
 
 <br clear="all">
 
-[Fullständig deltagarlista](https://kodsnack.se/people/).
+[Fullständig deltagarlista]({{<ref people>}}).
