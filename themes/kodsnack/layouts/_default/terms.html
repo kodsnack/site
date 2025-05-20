@@ -14,9 +14,10 @@
     {{ end }}
     
     <ul class="posts">
+    {{ $allPeople := .Data.Terms }}
       {{ range .Data.Terms.Alphabetical }}
         <li><span class="post-list">
-          <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>
+          <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> - {{ len (index $allPeople (lower .Page.Data.Term)) }} avsnitt
         </span></li>
       {{ end }}
     </ul>
