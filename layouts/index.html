@@ -14,14 +14,10 @@
          <a href="https://www.kodsnack.se/{{$imageUrl}}" target="_blank"><img src="https://www.kodsnack.se/{{$imageUrl}}"></a>
         {{ end }}
       {{ end }}
-      {{ if .Params.libsynid }}
-      <div class="post-player">
-<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/{{ .Params.libsynid }}/height/45/width/300/theme/standard-mini/direction/no/autoplay/no/autonext/no/thumbnail/no/preload/no/no_addthis/no/" height="45" width="300" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-      </div>
-      {{ end }}
-
       {{ if .Params.audiofile }}
+        <audio class="post-download" controls src="{{ .Params.audiofile }}"></audio>
         <span class="post-download"><a href="{{ .Params.audiofile }}">Ladda ner (mp3)</a></span>
+      {{ end }}
         <script>
           var linksInNewTab = false;
           var toggleLinkTarget = function () {
@@ -37,7 +33,6 @@
           });
         </script>
         <span class="open-in-tabs"><label><input type="checkbox" id="linkToggler">Öppna länkar i nya flikar</input></label></span>
-        {{ end }}
 
         {{ .Content }}
 
