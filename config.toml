@@ -29,29 +29,34 @@ avsnitt = "/:slug/"
         weight = -200
 
 [[menu.main]]
+        name = "Sök"
+        url = "/search/"
+        weight = -199
+
+[[menu.main]]
         name = "Slack"
         url = "https://join.slack.com/t/podsnack/shared_invite/zt-wh2ussm9-xFOqpvjgF16G2eDhaBy1hw"
-        weight = -199
+        weight = -198
 
 [[menu.main]]
         name = "Alla avsnitt"
         url = "/avsnitt/"
-        weight = -198
+        weight = -197
 
 [[menu.main]]
         name = "🛒 Handla"
         url = "https://shop.spreadshirt.se/kodsnack/"
-        weight = -197
+        weight = -196
 
 [[menu.main]]
         name = "📣 Sponsra"
         url = "/sponsra/"
-        weight = -196
+        weight = -195
 
 [[menu.main]]
         name = "📡 RSS"
         url = "https://feeds.kodsnack.se"
-        weight = -195
+        weight = -194
 
 [[menu.main]]
         name = "|   iTunes"
