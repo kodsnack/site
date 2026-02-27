@@ -50,7 +50,7 @@ awk -v new_num="$new_num" -v old_num="$highest" \
     -v new_date="$new_date" -v old_date="$old_date" \
     -v new_alias_date="$new_alias_date" -v old_alias_date="$old_alias_date" \
 '
-BEGIN { in_front=0; front_count=0; body=0 }
+BEGIN { in_front=0; front_count=0; body=0; seen_cloudnet=0; past_desc=0 }
 {
     if ($0 == "+++") {
         front_count++
@@ -77,10 +77,18 @@ BEGIN { in_front=0; front_count=0; body=0 }
 
     if (body) {
         if ($0 ~ /^## /) {
-            print ""
+            if (past_desc) print ""
             print $0
             print "* "
+            past_desc = 1
+            next
         }
+        if (past_desc) next
+        if (!seen_cloudnet && $0 ~ /Cloudnet/) {
+            seen_cloudnet = 1
+            print ""
+        }
+        if (seen_cloudnet) print
     }
 }
 ' "$new_num.md" > "$new_num.md.tmp" && mv "$new_num.md.tmp" "$new_num.md"
