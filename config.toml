@@ -30,7 +30,7 @@ avsnitt = "/:slug/"
 
 [[menu.main]]
         name = "Slack"
-        url = "https://join.slack.com/t/podsnack/shared_invite/zt-wh2ussm9-xFOqpvjgF16G2eDhaBy1hw"
+        url = "https://join.slack.com/t/podsnack/shared_invite/zt-3vmgccoa8-xVBMtMaAopSqtjobeHMbWg"
         weight = -199
 
 [[menu.main]]
@@ -62,7 +62,7 @@ avsnitt = "/:slug/"
         name = "|   Spotify"
         url = "https://open.spotify.com/show/1gXqSrlHmdqOZTmiMo19mR"
         weight = -188
-        
+
 [[menu.main]]
         name = "|   Overcast"
         url = "https://overcast.fm/itunes561631498/kodsnack"
