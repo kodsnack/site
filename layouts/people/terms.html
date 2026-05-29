@@ -1,0 +1,27 @@
+{{ partial "head.html" . }}
+  <body>
+
+  {{ partial "sidebar.html" . }}
+
+  <div class="content container">
+    {{if .Title }}
+      <h1>{{ .Title }}</h1>
+    {{ end }}
+    {{if .Content}}
+      <p>
+        {{ .Content }}
+      </p>
+    {{ end }}
+
+    <ul class="posts">
+      {{ range .Data.Terms.Alphabetical }}
+        {{ $count := len (where .Pages "Section" "avsnitt") }}
+        <li><span class="post-list">
+          <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ $count }})
+        </span></li>
+      {{ end }}
+    </ul>
+  </div>
+
+  </body>
+</html>
