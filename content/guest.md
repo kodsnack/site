@@ -22,3 +22,6 @@ Det går att prata hur länge som helst om teknik, men första punkten är både
 * Om du kan välja, sitt i ett rum med så lite eko och bakgrundsljud som möjligt
 * Råkar du ha tillgång till flera mikrofoner, välj den bättre av dem. Det mesta slår datorns inbyggda mikrofon
 * Om du kan välja, anslut gärna datorn trådat istället för via wifi
+
+## Tipsa om en gäst ##
+[Tipsa om en gäst!](mailto:info@kodsnack.se)
