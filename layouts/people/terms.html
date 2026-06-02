@@ -13,15 +13,115 @@
       </p>
     {{ end }}
 
-    <ul class="posts">
+    <div class="people-sort" hidden>
+      <span class="people-sort-label">Sortera:</span>
+      <button type="button" class="people-sort-button" data-sort="name" aria-pressed="true">Namn</button>
+      <button type="button" class="people-sort-button" data-sort="count" aria-pressed="false">Antal besök</button>
+    </div>
+
+    <ul class="posts" id="people-list">
       {{ range .Data.Terms.Alphabetical }}
         {{ $count := len (where .Pages "Section" "avsnitt") }}
-        <li><span class="post-list">
+        <li data-name="{{ .Page.LinkTitle }}" data-count="{{ $count }}"><span class="post-list">
           <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ $count }})
         </span></li>
       {{ end }}
     </ul>
   </div>
+
+  <script type="text/javascript">
+    const sortHandler = () => {
+      const list = document.getElementById("people-list");
+      const controls = document.querySelector(".people-sort");
+      if (!list || !controls) return;
+
+      let items = [...list.children];
+      const collator = new Intl.Collator("sv", { sensitivity: "base" });
+
+      const state = { field: "name", asc: true };
+
+      // The natural default direction for each field: names A→Z, counts high→low.
+      const defaultAsc = (field) => {
+        return field === "name";
+      }
+
+      const encodeSort = () => {
+        let asc = state.asc;
+        if (asc === defaultAsc(state.field)) {
+          return state.field;
+        }
+        return state.field + (asc ? "-asc" : "-desc");
+      }
+
+      applySort = (value) => {
+        if (!value) return;
+        const parts = value.split("-");
+        const field = parts[0];
+        if (field !== "name" && field !== "count") return;
+        state.field = field;
+        if (parts[1] === "asc") {
+          state.asc = true;
+        } else if (parts[1] === "desc") {
+          state.asc = false;
+        } else {
+          state.asc = defaultAsc(field);
+        }
+      }
+
+      const updateQueryString = () => {
+        if (!window.history || !window.history.replaceState) return;
+        let url = new URL(window.location.href);
+        url.searchParams.set("sort", encodeSort());
+        window.history.replaceState(null, "", url.toString());
+      }
+
+      const compare = (a, b) => {
+        let result;
+        if (state.field === "count") {
+          result = Number(a.getAttribute("data-count")) - Number(b.getAttribute("data-count"));
+          if (result === 0) {
+            result = collator.compare(a.getAttribute("data-name"), b.getAttribute("data-name"));
+          }
+        } else {
+          result = collator.compare(a.getAttribute("data-name"), b.getAttribute("data-name"));
+        }
+        return state.asc ? result : -result;
+      }
+
+      const render = () => {
+        items.sort(compare).forEach(item => list.appendChild(item));
+
+        controls.querySelectorAll(".people-sort-button").forEach(button => {
+          let active = button.getAttribute("data-sort") === state.field;
+          button.setAttribute("aria-pressed", active ? "true" : "false");
+          let arrow = active ? (state.asc ? " ↑" : " ↓") : "";
+          button.textContent = button.getAttribute("data-label") + arrow;
+        });
+
+        updateQueryString();
+      }
+
+      controls.querySelectorAll(".people-sort-button").forEach(button => {
+        button.setAttribute("data-label", button.textContent);
+        button.addEventListener("click", () => {
+          let field = button.getAttribute("data-sort");
+          if (state.field === field) {
+            state.asc = !state.asc;
+          } else {
+            state.field = field;
+            state.asc = defaultAsc(field);
+          }
+          render();
+        });
+      });
+
+      applySort(new URLSearchParams(window.location.search).get("sort"));
+
+      controls.hidden = false;
+      render();
+    };
+    sortHandler();
+  </script>
 
   </body>
 </html>
