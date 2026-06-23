@@ -10,6 +10,7 @@ Vad kul att du kan tänka dig att vara med i podden! Vi kör en väldigt avslapp
 ## Inspelningen ##
 * Vi spelar ofta in via [Squadcast](https://squadcast.fm) - som kör i webbläsaren och spelar in allt ljud - men vi kan använda vilken lösning som helst om något annat är smidigare för dig
 * Vi brukar sätta upp några ämnespunkter att utgå från. Det händer ungefär lika ofta att vi faktiskt håller oss till dem som att vi snackar om helt andra saker, och det är så vi vill ha det. Kommer du på något intressant i stunden som vi inte alls diskuterat innan: kör!
+* Vi brukar ha video på, men det är helt valfritt att ha en kamera påslagen. Videon spelas inte in, utan är bara för att det kan vara trevligt att se varandra medan vi snackar
 * Du behöver inte avbryta dig om du och någon av oss börjar säga något samtidigt, vi kan klippa bort oss själva i redigeringen
 * Säg bara till om du vill ha något bortklippt, eller vill lyssna på avsnittet innan det släpps. Vi släpper inget som inte alla deltagare känner sig bekväma med
 * Vi gillar långa länklistor! Vi tänker att alla som lyssnar ska kunna kolla upp allt de hör som verkar intressant och läsa vidare. Vill du ha med något särskilt i länklistan: säg till före, under, eller efter inspelningen!
