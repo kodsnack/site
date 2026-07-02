@@ -4,7 +4,7 @@
   <div class="content container">
     <div class="post">
       <h1 class="post-title">{{ .Title }}</h1>
-
+        <p>Klicka på en bild för att förstora. Eller flytta fokus med tabb/piltangenter och förstora/återställ med mellanslag. Tryck enter när en bild är förstorad för att gå till avsnittssidan.</p>
       <style>
         .covers-grid {
           display: grid;
@@ -114,17 +114,14 @@
       </div>
 
       <script>
-        (function () {
-          var grid = document.querySelector('.covers-grid');
-          if (!grid) return;
-          var covers = Array.prototype.slice.call(grid.querySelectorAll('.cover'));
-          if (!covers.length) return;
+        const run = () => {
+          let grid = document.querySelector('.covers-grid');
+          let covers = [...grid.querySelectorAll('.cover')];
+          const COLS = 4;
+          let sel = 0;
+          let zoomed = null;
 
-          var COLS = 4;
-          var sel = 0;
-          var zoomed = null;                       // the one currently-zoomed cover, or null
-
-          function zoomIn(c) {
+          const zoomIn = (c) => {
             if (zoomed && zoomed !== c) zoomOut(zoomed);  // only one zoomed at a time
             clearTimeout(c._downTimer);
             c.classList.remove('is-down');
@@ -132,16 +129,16 @@
             zoomed = c;
             c.scrollIntoView({ block: 'nearest' });
           }
-          function zoomOut(c) {
+          const zoomOut = (c) => {
             if (!c.classList.contains('zoomed')) return;
             c.classList.remove('zoomed');
-            c.classList.add('is-down');            // stay above the grid while shrinking...
+            c.classList.add('is-down'); // stay above the grid while shrinking...
             c._downTimer = setTimeout(function () { // ...then drop back once done
               c.classList.remove('is-down');
             }, 450);
             if (zoomed === c) zoomed = null;
           }
-          function toggleZoom(c) {
+          const toggleZoom = (c) => {
             if (c.classList.contains('zoomed')) zoomOut(c); else zoomIn(c);
           }
 
@@ -149,20 +146,20 @@
           // outline and the light-blue ring both follow :focus, and Tab, arrow
           // keys and the mouse all move focus — so the two can never diverge.
           grid.addEventListener('focusin', function (e) {
-            var c = e.target.closest('.cover');
+            let c = e.target.closest('.cover');
             if (c) sel = covers.indexOf(c);
           });
 
           // Moving the cursor over an image focuses (selects) it.
           grid.addEventListener('mouseover', function (e) {
-            var c = e.target.closest('.cover');
+            let c = e.target.closest('.cover');
             if (c) c.focus({ preventScroll: true });
           });
 
           // Clicking an image zooms it (toggle); only the title opens the episode.
           grid.addEventListener('click', function (e) {
             if (e.detail === 0) return;            // ignore keyboard-synthesised clicks
-            var c = e.target.closest('.cover');
+            let c = e.target.closest('.cover');
             if (!c) return;
             if (e.target.closest('.cover-title')) return;   // let the title navigate
             e.preventDefault();
@@ -170,13 +167,13 @@
             toggleZoom(c);
           });
 
-          function focusDelta(dCol, dRow) {
-            var col = sel % COLS, row = Math.floor(sel / COLS);
-            var nc = col + dCol, nr = row + dRow;
+          const focusDelta = (dCol, dRow) => {
+            let col = sel % COLS, row = Math.floor(sel / COLS);
+            let nc = col + dCol, nr = row + dRow;
             if (nc < 0 || nc >= COLS) return;      // clamp at the left/right edges
-            var ni = nr * COLS + nc;
+            let ni = nr * COLS + nc;
             if (ni < 0 || ni >= covers.length) return;
-            var carry = covers[sel].classList.contains('zoomed');  // arrowing from a zoomed image?
+            let carry = covers[sel].classList.contains('zoomed');  // arrowing from a zoomed image?
             covers[ni].focus({ preventScroll: true });
             covers[ni].scrollIntoView({ block: 'nearest' });
             if (carry) zoomIn(covers[ni]);         // carry the zoom over (collapses the old one) so you browse large
@@ -204,7 +201,8 @@
 
           // Start with the top-left image selected.
           covers[0].focus({ preventScroll: true });
-        })();
+        };
+        run();
       </script>
 
     </div>
