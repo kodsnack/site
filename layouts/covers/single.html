@@ -122,7 +122,9 @@
           let zoomed = null;
 
           const zoomIn = (c) => {
-            if (zoomed && zoomed !== c) zoomOut(zoomed);  // only one zoomed at a time
+            if (zoomed && zoomed !== c) {
+              zoomOut(zoomed);   // only one zoomed at a time
+            }
             clearTimeout(c._downTimer);
             c.classList.remove('is-down');
             c.classList.add('zoomed');
@@ -130,16 +132,24 @@
             c.scrollIntoView({ block: 'nearest' });
           }
           const zoomOut = (c) => {
-            if (!c.classList.contains('zoomed')) return;
+            if (!c.classList.contains('zoomed')) {
+              return;
+            }
             c.classList.remove('zoomed');
             c.classList.add('is-down'); // stay above the grid while shrinking...
-            c._downTimer = setTimeout(function () { // ...then drop back once done
+            c._downTimer = setTimeout(() => { // ...then drop back once done
               c.classList.remove('is-down');
             }, 450);
-            if (zoomed === c) zoomed = null;
+            if (zoomed === c) {
+              zoomed = null
+            };
           }
           const toggleZoom = (c) => {
-            if (c.classList.contains('zoomed')) zoomOut(c); else zoomIn(c);
+            if (c.classList.contains('zoomed')) {
+              zoomOut(c);
+            } else {
+              zoomIn(c)
+            };
           }
 
           // Focus is the single source of truth for the selection: the native
@@ -147,21 +157,31 @@
           // keys and the mouse all move focus — so the two can never diverge.
           grid.addEventListener('focusin', function (e) {
             let c = e.target.closest('.cover');
-            if (c) sel = covers.indexOf(c);
+            if (c) {
+              sel = covers.indexOf(c);
+            }
           });
 
           // Moving the cursor over an image focuses (selects) it.
           grid.addEventListener('mouseover', function (e) {
             let c = e.target.closest('.cover');
-            if (c) c.focus({ preventScroll: true });
+            if (c) {
+              c.focus({ preventScroll: true });
+            }
           });
 
           // Clicking an image zooms it (toggle); only the title opens the episode.
           grid.addEventListener('click', function (e) {
-            if (e.detail === 0) return;            // ignore keyboard-synthesised clicks
+            if (e.detail === 0) {
+              return; // ignore keyboard-synthesised clicks
+            }
             let c = e.target.closest('.cover');
-            if (!c) return;
-            if (e.target.closest('.cover-title')) return;   // let the title navigate
+            if (!c) {
+              return;
+            }
+            if (e.target.closest('.cover-title')) {
+              return; // let the title navigate
+            }
             e.preventDefault();
             c.focus({ preventScroll: true });
             toggleZoom(c);
@@ -170,18 +190,26 @@
           const focusDelta = (dCol, dRow) => {
             let col = sel % COLS, row = Math.floor(sel / COLS);
             let nc = col + dCol, nr = row + dRow;
-            if (nc < 0 || nc >= COLS) return;      // clamp at the left/right edges
+            if (nc < 0 || nc >= COLS) {
+              return; // clamp at the left/right edges
+            }
             let ni = nr * COLS + nc;
-            if (ni < 0 || ni >= covers.length) return;
+            if (ni < 0 || ni >= covers.length) {
+              return;
+            }
             let carry = covers[sel].classList.contains('zoomed');  // arrowing from a zoomed image?
             covers[ni].focus({ preventScroll: true });
             covers[ni].scrollIntoView({ block: 'nearest' });
-            if (carry) zoomIn(covers[ni]);         // carry the zoom over (collapses the old one) so you browse large
+            if (carry) {
+              zoomIn(covers[ni]); // carry the zoom over (collapses the old one) so you browse large
+            }
           }
 
           // Scoped to the grid, so arrows/space only act while a cover is focused.
           grid.addEventListener('keydown', function (e) {
-            if (e.altKey || e.ctrlKey || e.metaKey) return;
+            if (e.altKey || e.ctrlKey || e.metaKey) {
+              return;
+            }
             switch (e.key) {
               case 'ArrowLeft':  e.preventDefault(); focusDelta(-1, 0); break;
               case 'ArrowRight': e.preventDefault(); focusDelta(1, 0);  break;
