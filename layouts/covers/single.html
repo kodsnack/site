@@ -1,0 +1,213 @@
+{{ partial "head.html" . }}
+<body>
+  {{ partial "sidebar.html" . }}
+  <div class="content container">
+    <div class="post">
+      <h1 class="post-title">{{ .Title }}</h1>
+
+      <style>
+        .covers-grid {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 0.4rem;
+          margin-top: 1rem;
+          container-type: inline-size; /* 1cqw = 1% of the content-area width */
+        }
+
+        .cover {
+          position: relative;
+          display: block;
+          aspect-ratio: 16 / 9;
+          z-index: 1;
+        }
+        /* Layering: a cover zooming up sits above one zooming back down, which
+           sits above the focused (selected) one, above the resting grid. */
+        .cover:focus  { z-index: 10; }
+        .cover.is-down { z-index: 20; }
+        .cover.zoomed  { z-index: 30; }
+
+        .cover-card {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          box-sizing: border-box;
+          padding: 0;
+          border-radius: 3px;
+          background: transparent;
+          /* two shadows always present (transparent when off) so the ring and the
+             drop shadow can fade in/out smoothly */
+          box-shadow: 0 0 0 3px rgba(90, 169, 255, 0),
+                      0 0.5rem 1.5rem rgba(0, 0, 0, 0);
+          transition: width .4s ease, left .4s ease, padding .4s ease,
+                      background-color .4s ease, border-radius .4s ease,
+                      box-shadow .18s ease;
+        }
+        .cover-card img {
+          display: block;
+          width: 100%;
+          max-width: none;             /* override the theme's global img { max-width: 100% } clamp */
+          margin: 0;
+          aspect-ratio: 16 / 9;        /* height follows width -> re-sampled from the 1280px source, stays sharp */
+          object-fit: cover;
+          border-radius: 3px;
+        }
+        .cover-title {
+          position: absolute;
+          top: .45rem;
+          left: .6rem;
+          right: .6rem;
+          text-align: center;
+          font-size: .8rem;
+          font-weight: 600;
+          line-height: 1.25;
+          color: #333;
+          pointer-events: none;                  /* only clickable (to open the episode) once zoomed */
+          opacity: 0;
+          transition: opacity .2s ease;          /* leave: fade out immediately */
+        }
+
+        /* Light-blue selection ring around the image — follows focus, so it and
+           the browser's native focus outline always land on the same image. */
+        .cover:focus .cover-card {
+          box-shadow: 0 0 0 3px rgba(90, 169, 255, .95),
+                      0 0.5rem 1.5rem rgba(0, 0, 0, 0);
+        }
+
+        /* Zoom to the full width of the content area. Each column shifts left so
+           the card aligns to the content column instead of spilling past it. */
+        .cover.zoomed .cover-card {
+          width: 100cqw;
+          padding: 2.7rem .5rem .5rem;  /* top band reserves room for the title */
+          background: #fff;
+          border-radius: 8px;
+          box-shadow: 0 0 0 3px rgba(90, 169, 255, .95),
+                      0 0.5rem 1.5rem rgba(0, 0, 0, .35);
+        }
+        .cover:nth-child(4n + 2).zoomed .cover-card { left: calc(-25cqw - 0.1rem); }
+        .cover:nth-child(4n + 3).zoomed .cover-card { left: calc(-50cqw - 0.2rem); }
+        .cover:nth-child(4n).zoomed .cover-card { left: calc(-75cqw - 0.3rem); }
+        .cover.zoomed .cover-title {
+          opacity: 1;
+          pointer-events: auto;
+          transition: opacity .2s ease .25s;      /* appear once the zoom is nearly done */
+        }
+      </style>
+
+      <div class="covers-grid">
+        {{ $episodes := where (where .Site.RegularPages "Section" "avsnitt") "Params.images" "!=" nil }}
+        {{ range $episodes }}
+          {{ $cover := index .Params.images 0 }}
+          {{/* Prefer the cover's own published URL (correct wherever Hugo puts it);
+               fall back to the raw path for Hugo versions that don't attach it as a resource. */}}
+          {{ $src := printf "/%s" $cover }}
+          {{ with .Resources.GetMatch (path.Base $cover) }}
+            {{ $src = .RelPermalink }}
+          {{ end }}
+          <a class="cover" href="{{ .Permalink }}">
+            <span class="cover-card">
+              <span class="cover-title">{{ .Title }}</span>
+              <img src="{{ $src }}" alt="{{ .Title }}">
+            </span>
+          </a>
+        {{ end }}
+      </div>
+
+      <script>
+        (function () {
+          var grid = document.querySelector('.covers-grid');
+          if (!grid) return;
+          var covers = Array.prototype.slice.call(grid.querySelectorAll('.cover'));
+          if (!covers.length) return;
+
+          var COLS = 4;
+          var sel = 0;
+          var zoomed = null;                       // the one currently-zoomed cover, or null
+
+          function zoomIn(c) {
+            if (zoomed && zoomed !== c) zoomOut(zoomed);  // only one zoomed at a time
+            clearTimeout(c._downTimer);
+            c.classList.remove('is-down');
+            c.classList.add('zoomed');
+            zoomed = c;
+            c.scrollIntoView({ block: 'nearest' });
+          }
+          function zoomOut(c) {
+            if (!c.classList.contains('zoomed')) return;
+            c.classList.remove('zoomed');
+            c.classList.add('is-down');            // stay above the grid while shrinking...
+            c._downTimer = setTimeout(function () { // ...then drop back once done
+              c.classList.remove('is-down');
+            }, 450);
+            if (zoomed === c) zoomed = null;
+          }
+          function toggleZoom(c) {
+            if (c.classList.contains('zoomed')) zoomOut(c); else zoomIn(c);
+          }
+
+          // Focus is the single source of truth for the selection: the native
+          // outline and the light-blue ring both follow :focus, and Tab, arrow
+          // keys and the mouse all move focus — so the two can never diverge.
+          grid.addEventListener('focusin', function (e) {
+            var c = e.target.closest('.cover');
+            if (c) sel = covers.indexOf(c);
+          });
+
+          // Moving the cursor over an image focuses (selects) it.
+          grid.addEventListener('mouseover', function (e) {
+            var c = e.target.closest('.cover');
+            if (c) c.focus({ preventScroll: true });
+          });
+
+          // Clicking an image zooms it (toggle); only the title opens the episode.
+          grid.addEventListener('click', function (e) {
+            if (e.detail === 0) return;            // ignore keyboard-synthesised clicks
+            var c = e.target.closest('.cover');
+            if (!c) return;
+            if (e.target.closest('.cover-title')) return;   // let the title navigate
+            e.preventDefault();
+            c.focus({ preventScroll: true });
+            toggleZoom(c);
+          });
+
+          function focusDelta(dCol, dRow) {
+            var col = sel % COLS, row = Math.floor(sel / COLS);
+            var nc = col + dCol, nr = row + dRow;
+            if (nc < 0 || nc >= COLS) return;      // clamp at the left/right edges
+            var ni = nr * COLS + nc;
+            if (ni < 0 || ni >= covers.length) return;
+            var carry = covers[sel].classList.contains('zoomed');  // arrowing from a zoomed image?
+            covers[ni].focus({ preventScroll: true });
+            covers[ni].scrollIntoView({ block: 'nearest' });
+            if (carry) zoomIn(covers[ni]);         // carry the zoom over (collapses the old one) so you browse large
+          }
+
+          // Scoped to the grid, so arrows/space only act while a cover is focused.
+          grid.addEventListener('keydown', function (e) {
+            if (e.altKey || e.ctrlKey || e.metaKey) return;
+            switch (e.key) {
+              case 'ArrowLeft':  e.preventDefault(); focusDelta(-1, 0); break;
+              case 'ArrowRight': e.preventDefault(); focusDelta(1, 0);  break;
+              case 'ArrowUp':    e.preventDefault(); focusDelta(0, -1); break;
+              case 'ArrowDown':  e.preventDefault(); focusDelta(0, 1);  break;
+              case ' ':
+              case 'Spacebar':   e.preventDefault(); toggleZoom(covers[sel]); break;
+              case 'Escape':     if (zoomed) zoomOut(zoomed); break;
+              case 'Enter':      // open the episode, same as clicking the title (only when zoomed)
+                e.preventDefault();
+                if (covers[sel].classList.contains('zoomed')) {
+                  window.location.href = covers[sel].getAttribute('href');
+                }
+                break;
+            }
+          });
+
+          // Start with the top-left image selected.
+          covers[0].focus({ preventScroll: true });
+        })();
+      </script>
+
+    </div>
+  </div>
+  </body>
+</html>
