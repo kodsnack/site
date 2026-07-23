@@ -187,6 +187,19 @@
             toggleZoom(c);
           });
 
+          // Clicking anywhere off the images zooms the current one back out.
+          // No preventDefault/stopPropagation, so it never swallows a click —
+          // links, the sidebar and everything else still work as normal.
+          document.addEventListener('click', function (e) {
+            if (!zoomed) {
+              return;
+            }
+            if (e.target.closest('.cover')) {
+              return; // covers are handled by the grid listener above
+            }
+            zoomOut(zoomed);
+          });
+
           const focusDelta = (dCol, dRow) => {
             let col = sel % COLS, row = Math.floor(sel / COLS);
             let nc = col + dCol, nr = row + dRow;
