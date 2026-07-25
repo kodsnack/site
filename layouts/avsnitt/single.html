@@ -8,7 +8,9 @@
 
       {{ if .Params.images }}
         {{ range $imageUrl := .Params.images }}
-         <a href="https://www.kodsnack.se/{{$imageUrl}}" target="_blank"><img src="https://www.kodsnack.se/{{$imageUrl}}"></a>
+         <div class="episode-cover" style="--cover: url('https://www.kodsnack.se/{{ $imageUrl }}')">
+           <a href="https://www.kodsnack.se/{{ $imageUrl }}" target="_blank"><img src="https://www.kodsnack.se/{{ $imageUrl }}"></a>
+         </div>
         {{ end }}
       {{ end }}
       {{ if .Params.audiofile }}

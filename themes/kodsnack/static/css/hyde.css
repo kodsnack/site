@@ -13,7 +13,6 @@
  * https://github.com/poole/hyde.
  */
 
-
 /*
  * Contents
  *
@@ -24,7 +23,6 @@
  * Themes
  */
 
-
 /*
  * Global resets
  *
@@ -32,14 +30,13 @@
  */
 
 html {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48rem) {
-  html {
-    font-size: 1em;
-  }
+    html {
+        font-size: 1em;
+    }
 }
-
 
 /*
  * Sidebar
@@ -49,10 +46,10 @@ html {
  */
 
 .sidebar {
-  text-align: center;
-  padding: 2rem 1rem;
-  color: #777777;
-  background-color: rgb(11,249,164);
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #777777;
+    background-color: rgb(11, 249, 164);
 }
 
 .sidebar-header {
@@ -63,7 +60,7 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('/kodsnack-sidebar.png');
+    background-image: url("/kodsnack-sidebar.png");
     background-size: 224px 132px;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,54 +69,54 @@ html {
 }
 
 .sump-sidebar .sidebar-header {
-  background-image: url('/sumpsnack-sidebar.png');
-  background-size: 224px 224px;
-  width: 224px;
-  height: 224px;
+    background-image: url("/sumpsnack-sidebar.png");
+    background-size: 224px 224px;
+    width: 224px;
+    height: 224px;
 }
 
 @media (min-width: 48rem) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 18rem;
+        text-align: left;
+    }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #222;
+    color: #222;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #aaa;
-  margin-top: 0;
-  font-family: "Open Sans", serif;
-  font-size: 3.25rem;
+    color: #aaa;
+    margin-top: 0;
+    font-family: "Open Sans", serif;
+    font-size: 3.25rem;
 }
 
 .sidebar-about h1 a {
-  color: #aaa;
+    color: #aaa;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
-  padding-left: 0;
-  list-style: none;
+    padding-left: 0;
+    list-style: none;
 }
 .sidebar-nav-item {
-  display: block;
+    display: block;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 .sidebar-nav-item.active {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .sidebar-copyright a {
@@ -134,14 +131,13 @@ a.sidebar-nav-item:focus {
  */
 
 @media (min-width: 48rem) {
-  .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
-  }
+    .sidebar-sticky {
+        position: absolute;
+        right: 1rem;
+        bottom: 1rem;
+        left: 1rem;
+    }
 }
-
 
 /* Container
  *
@@ -150,25 +146,24 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 @media (min-width: 48rem) {
-  .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
-  }
+    .content {
+        max-width: 38rem;
+        margin-left: 20rem;
+        margin-right: 2rem;
+    }
 }
 
 @media (min-width: 64rem) {
-  .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
-  }
+    .content {
+        margin-left: 22rem;
+        margin-right: 4rem;
+    }
 }
-
 
 /*
  * Reverse layout
@@ -177,24 +172,108 @@ a.sidebar-nav-item:focus {
  */
 
 @media (min-width: 48rem) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
+    .layout-reverse .sidebar {
+        left: auto;
+        right: 0;
+    }
+    .layout-reverse .content {
+        margin-left: 2rem;
+        margin-right: 20rem;
+    }
 }
 
 @media (min-width: 64rem) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
+    .layout-reverse .content {
+        margin-left: 4rem;
+        margin-right: 22rem;
+    }
 }
 
+/*
+ * Episode cover
+ *
+ * The artwork keeps its normal size and place in the content column; the
+ * colour of its edges is then bled outwards to fill the page: the left/right
+ * columns repeat sideways to the page edges, and the top/bottom rows repeat
+ * up/down, fading to transparent. The template puts the image URL in
+ * `--cover`; each strip paints that image stretched so far in one direction
+ * that only its edge column (or row) shows.
+ */
 
+html {
+    overflow-x: hidden;
+} /* the bled edges run off-screen — clip them */
+
+.post-date {
+    color: black;
+    text-shadow: white 0px 0px 5px;
+}
+
+.episode-cover {
+    --fade: 4rem;
+    position: relative;
+    z-index: -1;
+}
+.episode-cover a {
+    display: block;
+}
+.episode-cover img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+/* Left/right: the image's edge column, repeated out to the page edges. */
+.episode-cover::before,
+.episode-cover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    background: var(--cover) no-repeat;
+    background-size: 100000% 100%;
+}
+.episode-cover::before {
+    right: 100%;
+    background-position: left;
+}
+.episode-cover::after {
+    left: 100%;
+    background-position: right;
+}
+
+/* Top/bottom: the image's edge colour, full-width, fading into the page.
+   Two background layers — the sampled edge colour, and a CSS gradient to white
+   on top of it. The cover layer is squashed to 1px wide (`1px 100000%`, then
+   repeated), so it becomes the edge row's *horizontal average* — a flat tone.
+   For a flat-background cover that's simply the background colour; for a full
+   illustration (whose edge row may cross posts, outlines, etc.) it avoids
+   dragging those features down as vertical bars.*/
+.episode-cover a::before,
+.episode-cover a::after {
+    content: "";
+    position: absolute;
+    left: -100vw;
+    right: -100vw;
+    height: var(--fade);
+    background-repeat: no-repeat, repeat;
+    background-size:
+        100% 100%,
+        1px 100000%; /* gradient fills; cover → edge row, averaged flat */
+}
+.episode-cover a::before {
+    bottom: 100%;
+    background-image: linear-gradient(to top, transparent, #fff), var(--cover);
+    background-position: top;
+}
+.episode-cover a::after {
+    top: 100%;
+    background-image:
+        linear-gradient(to bottom, transparent, #fff), var(--cover);
+    background-position: bottom;
+}
 
 /*
  * Themes
@@ -207,72 +286,72 @@ a.sidebar-nav-item:focus {
 
 /* Red */
 .theme-base-08 .sidebar {
-  background-color: #ac4142;
+    background-color: #ac4142;
 }
 .theme-base-08 .content a,
 .theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
+    color: #ac4142;
 }
 
 /* Orange */
 .theme-base-09 .sidebar {
-  background-color: #d28445;
+    background-color: #d28445;
 }
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
-  color: #d28445;
+    color: #d28445;
 }
 
 /* Yellow */
 .theme-base-0a .sidebar {
-  background-color: #f4bf75;
+    background-color: #f4bf75;
 }
 .theme-base-0a .content a,
 .theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
+    color: #f4bf75;
 }
 
 /* Green */
 .theme-base-0b .sidebar {
-  background-color: #90a959;
+    background-color: #90a959;
 }
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
-  color: #90a959;
+    color: #90a959;
 }
 
 /* Cyan */
 .theme-base-0c .sidebar {
-  background-color: #75b5aa;
+    background-color: #75b5aa;
 }
 .theme-base-0c .content a,
 .theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
+    color: #75b5aa;
 }
 
 /* Blue */
 .theme-base-0d .sidebar {
-  background-color: #6a9fb5;
+    background-color: #6a9fb5;
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
+    color: #6a9fb5;
 }
 
 /* Magenta */
 .theme-base-0e .sidebar {
-  background-color: #aa759f;
+    background-color: #aa759f;
 }
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
+    color: #aa759f;
 }
 
 /* Brown */
 .theme-base-0f .sidebar {
-  background-color: #8f5536;
+    background-color: #8f5536;
 }
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
+    color: #8f5536;
 }
